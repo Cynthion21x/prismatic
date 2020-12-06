@@ -4,9 +4,6 @@ size: 1
 category: "effect"
 health: 680
 
-solid: false
-hasShadow: false
-
 requirements: [
   metaglass/5
   thorium/10
