@@ -2,7 +2,7 @@ size: 1
 category: "effect"
 health: 680
 
-type: "Phase Wall"
+type: phase-wall
 
 rotate: false
 configurable: false
