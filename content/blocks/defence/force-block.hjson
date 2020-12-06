@@ -2,7 +2,7 @@ size: 1
 category: "effect"
 health: 680
 
-type: phase-wall
+type: deflectorWall
 
 rotate: false
 configurable: false
