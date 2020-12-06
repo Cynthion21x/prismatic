@@ -1,9 +1,6 @@
 size: 1
 health: 440
 
-hasLiquids: true
-hasPower: true
-
 requirements: [
     lead/50
     silicon/15
@@ -22,7 +19,6 @@ consumes: {
             }
         ]
     }
-    power: -1
 }
 
 instructionsPerTick: 2
