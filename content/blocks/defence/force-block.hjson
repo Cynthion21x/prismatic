@@ -1,8 +1,8 @@
+type: DeflectorWall
+
 size: 1
 category: "effect"
 health: 680
-
-type: DeflectorWall
 
 solid: false
 hasShadow: false
