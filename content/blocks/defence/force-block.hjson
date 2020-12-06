@@ -16,7 +16,7 @@ breakSound: "none"
 targetable: false
 
 requirements: [
-  metalglass/2
+  metaglass/2
   thorium/1
 ]
 research: "force-projector"
