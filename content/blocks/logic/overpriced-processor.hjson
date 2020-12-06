@@ -9,7 +9,7 @@ requirements: [
     thorium/10
 ]
 
-instructionsPerTick: 1
+instructionsPerTick: 2
 range: 10
 
 category: logic
