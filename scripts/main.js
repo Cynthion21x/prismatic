@@ -1,5 +1,5 @@
 //blocks
-require("blocks/overpriced-processor");
-require("blocks/force-block");
+require("blocks/logic/overpriced-processor");
+require("blocks/defence/force-block");
 
 print("Load Complete!");
