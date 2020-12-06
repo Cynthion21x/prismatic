@@ -1,0 +1,31 @@
+size: 2
+health: 440
+
+hasLiquids: true
+hasPower: true
+
+requirements: [
+    lead/50
+    silicon/15
+    copper/10
+    metaglass/5
+    graphite/8
+    thorium/1
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+            item: scrap
+            amount: 1
+            }
+        ]
+    }
+    power: -1
+}
+
+instructionsPerTick: 2
+range: 2
+
+category: logic
