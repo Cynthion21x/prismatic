@@ -10,17 +10,6 @@ requirements: [
     thorium/1
 ]
 
-consumes: {
-    items: {
-        items: [
-            {
-            item: scrap
-            amount: 1
-            }
-        ]
-    }
-}
-
 instructionsPerTick: 2
 range: 2
 
