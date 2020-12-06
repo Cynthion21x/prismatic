@@ -20,11 +20,11 @@ const rectEffect = new Effect(60, e => {
   Lines.square(e.x, e.y, e.fout() * Vars.tilesize / 2);
 });
 
-const forceblock = extendContent(Wall, "forceblock", {
+const forceblock = extendContent(Wall, "force-block", {
 });
 
 forceblock.buildType = () => {
-  return extendContent(Wall.WallBuild, forceblock, {
+  return extendContent(Wall.WallBuild, force-block, {
     _warmup: 0,
     updateTile(){
       this.super$updateTile();
