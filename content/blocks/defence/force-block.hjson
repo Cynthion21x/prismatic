@@ -5,6 +5,7 @@ health: 680
 type: DeflectorWall
 
 solid: false
+hasShadow: false
 
 requirements: [
   metaglass/5
