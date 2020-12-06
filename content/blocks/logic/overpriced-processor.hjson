@@ -1,36 +1,17 @@
-size: 3
-health: 600
-
-hasLiquids: true
-hasPower: true
+size: 1
+health: 70
 
 requirements: [
-    lead/1000
-    silicon/350
-    metaglass/300
-    graphite/300
-    thorium/400
-    surge-alloy/150
+    lead/10
+    copper/2
+    silicon/48
+    metaglass/3
+    graphite/30
+    thorium/10
 ]
 
-consumes: {
-    items: {
-        items: [
-            {
-            item: thorium
-            amount: 10
-            }
-        ]
-    }
-    liquid: {
-        liquid: cryofluid
-        amount: 0.08
-    }
-    power: 50
-}
-
-instructionsPerTick: 40
-range: 800
+instructionsPerTick: 2
+range: 2
 
 category: logic
 research: hyper-processor
