@@ -1,6 +1,6 @@
 size: 1
-category: "effect"
-health: 200
+category: "defence"
+health: 680
 
 rotate: false
 configurable: false
