@@ -1,6 +1,8 @@
 size: 1
-category: "effect"
+category: "wall"
 health: 680
+
+type: "phase-wall"
 
 rotate: false
 configurable: false
@@ -16,7 +18,7 @@ breakSound: "none"
 targetable: false
 
 requirements: [
-  metaglass/2
-  thorium/1
+  metaglass/5
+  thorium/10
 ]
 research: "force-projector"
