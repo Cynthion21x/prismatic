@@ -11,7 +11,7 @@ requirements: [
 ]
 
 instructionsPerTick: 2
-range: 2
+range: 10
 
 category: logic
 research: hyper-processor
