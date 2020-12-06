@@ -1,6 +1,8 @@
 size: 1
 health: 70
 
+category: "logic"
+
 requirements: [
     lead/10
     copper/2
