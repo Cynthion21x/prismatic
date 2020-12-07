@@ -5,8 +5,8 @@ insulated: true
 flashHit: true
 
 lightningChance: 100
-lightningDamage: 80
-lightningLength: 25
+lightningDamage: 60
+lightningLength: 15
 
 health: 800
 size: 1
