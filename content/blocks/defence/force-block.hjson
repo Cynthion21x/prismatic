@@ -2,12 +2,18 @@ size: 1
 category: "power"
 health: 680
 
-sync: true,
-hasPower: true,
-outputsPower: true,
-consumesPower: false,
-baseExplosiveness: 5,
-itemCapacity: 3
+rotate: false
+configurable: false
+update: true
+hasShadow: false
+solid: false
+buildCostMultiplier: 0
+expanded: true
+rebuildable: false
+drawDisabled: false
+alwaysReplace: true
+breakSound: "none"
+targetable: false
 
 requirements: [
   metaglass/5
