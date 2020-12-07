@@ -15,8 +15,8 @@ maxAmmo: 20
 ammoTypes: {
   thorium: {
     type: BasicBulletType
-    backColor: 000000
-    frontColor: 474747
+    backColor: cyan
+    frontColor: cyan
     speed: 12
     height: 48
     width: 8
@@ -26,7 +26,7 @@ ammoTypes: {
     lifetime: 10
     knockback: 0
     ammoMultiplier: 2
-    damage: 1000
+    damage: 20
     hitEffect: pulverize
     despawnEffect: none
     shootEffect: none
@@ -34,10 +34,10 @@ ammoTypes: {
     incendChance: 0
     status: {
       name: crippled
-      speedMultiplier: 0.8
+      speedMultiplier: 0.5
       damageMultiplier: 0.6
       armorMultiplier: 0.2
-      damage: 250
+      damage: 0
       color: 000000
       effect: none
     }
