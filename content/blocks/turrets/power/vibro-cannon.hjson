@@ -15,8 +15,8 @@ maxAmmo: 20
 ammoTypes: {
   thorium: {
     type: BasicBulletType
-    backColor: cyan
-    frontColor: cyan
+    backColor: 000000
+    frontColor: 000000
     speed: 12
     height: 48
     width: 8
