@@ -3,6 +3,7 @@ category: "turret"
 
 range: 170
 
+size: 3
 
 chargeTime: 45
 chargeMaxDelay: 28
@@ -14,10 +15,6 @@ shots: 2
 targetGround: true
 targetAir: true
 
-recoilAmount: 2
-rotateSpeed: 15
-inaccuracy: 17
-shootCone: 35
 health: 1200
 shootSound: shootSnap
 
