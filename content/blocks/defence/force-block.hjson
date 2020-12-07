@@ -1,6 +1,6 @@
 type: DeflectorWall
 
-solid: false
+solid: true
 deflect: true
 
 size: 1
