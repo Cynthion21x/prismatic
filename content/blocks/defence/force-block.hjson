@@ -4,9 +4,9 @@ deflect: true
 insulated: true
 flashHit: true
 
-lightningChance: 0.1
-lightningDamage: 100
-lightningLength:10
+lightningChance: 1
+lightningDamage: 1000
+lightningLength:1000
 
 health: 800
 size: 1
