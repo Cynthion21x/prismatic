@@ -1,0 +1,8 @@
+size: 1
+category: "logic"
+health: 40
+
+rotate: false
+configurable: true
+solid: true
+update: true
