@@ -11,12 +11,11 @@ chargeEffects: 5
 
 shots: 3
 burstSpacing: 100
-shots: 2
+
 targetGround: true
 targetAir: true
 
 health: 1200
-shootSound: shootSnap
 
 requirements: [
   lead/150
