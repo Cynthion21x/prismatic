@@ -1,5 +1,5 @@
 size: 1
-category: "effect"
+category: "power"
 health: 680
 
 rotate: false
@@ -15,8 +15,19 @@ alwaysReplace: true
 breakSound: "none"
 targetable: false
 
+sync: true,
+hasPower: true,
+outputsPower: true,
+consumesPower: false,
+baseExplosiveness: 5,
+itemCapacity: 3
+
 requirements: [
   metaglass/5
   thorium/10
 ]
+
+hasPower: true,
+outputsPower: true,
+
 research: "force-projector"
