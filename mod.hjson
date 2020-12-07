@@ -1,7 +1,7 @@
 name: "prismatic"
-displayName: "[blue]Prismatic"
+displayName: "[blue] Prismatic"
 author: "ice100k"
-description: "A [blue]prismatic mod[]. Inspired by PrismTheGame this mod adds various new weapons to the game."
+description: "A [blue] prismatic mod []. Inspired by PrismTheGame this mod adds various new weapons to the game."
 version: "0.0.0"
 minGameVersion: "121"
 dependencies: [ ]
