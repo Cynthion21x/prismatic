@@ -1,0 +1,29 @@
+type: "PowerTurret"
+category: "turret"
+
+range: 170
+
+
+chargeTime: 45
+chargeMaxDelay: 28
+chargeEffects: 5
+
+shots: 3
+burstSpacing: 100
+shots: 2
+targetGround: true
+targetAir: true
+
+recoilAmount: 2
+rotateSpeed: 15
+inaccuracy: 17
+shootCone: 35
+health: 1200
+shootSound: shootSnap
+
+requirements: [
+  lead/150
+  silicon/60
+  titanium/80
+  plastanium/20
+]

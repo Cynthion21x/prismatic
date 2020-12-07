@@ -1,0 +1,12 @@
+size: 1
+health: 700
+
+buildVisibility: "sandboxOnly"
+
+category: "logic"
+
+instructionsPerTick: 100000
+range: 1000
+
+category: logic
+research: hyper-processor
