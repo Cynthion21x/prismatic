@@ -1,7 +1,7 @@
 type: "PowerTurret"
 category: "turret"
 
-range: 170
+size: 3
 
 health: 1200
 
