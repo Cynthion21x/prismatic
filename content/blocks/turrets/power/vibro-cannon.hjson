@@ -1,6 +1,6 @@
 type: ItemTurret
 reload: 480
-recoil: 2
+recoil: 20
 shootCone: 30
 range: 100
 cooldown: 0.015
@@ -26,7 +26,7 @@ ammoTypes: {
     lifetime: 10
     knockback: 0
     ammoMultiplier: 2
-    damage: 20
+    damage: 1
     hitEffect: pulverize
     despawnEffect: none
     shootEffect: none
