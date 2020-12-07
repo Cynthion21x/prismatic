@@ -1,4 +1,4 @@
-type: Turret
+type:" Turret"
 targetAir: false
 targetGround: true
 health: 520
@@ -11,10 +11,10 @@ consume: {
     power: 90
 }
 shootType: {
-    type: LaserBulletType
+    type: "LaserBulletType"
     length: 100
     damage: 110
-    shootEffect: shootSmall
+    shootEffect: "shootSmall"
     hitColor: e88ec9
     color: e88ec9
     despawnEffect: none
@@ -26,5 +26,5 @@ requirements: [
   titanium/50
   silicon/30
 ]
-category: turret
+category: "turret"
 research: Lancer
