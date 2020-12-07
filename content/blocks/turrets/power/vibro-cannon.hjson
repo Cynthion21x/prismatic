@@ -11,6 +11,7 @@ inaccuracy: 15
 spread: 0.05
 targetAir: true
 targetGround: true
+shootSound: quazar
 maxAmmo: 20
 ammoTypes: {
   thorium: {
