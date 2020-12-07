@@ -1,26 +1,15 @@
+type: DeflectorWall
+
 size: 1
-category: "power"
-health: 680
-
-rotate: false
-configurable: false
-update: true
-hasShadow: false
-solid: false
-buildCostMultiplier: 0
-expanded: true
-rebuildable: false
-drawDisabled: false
-alwaysReplace: true
-breakSound: "none"
-targetable: false
-
 requirements: [
-  metaglass/5
-  thorium/10
+    thorium/30
+    silicon/2
+    metaglass/12
 ]
 
-hasPower: true,
-outputsPower: true,
+hasShadow: false
+placeableLiquid: true
+health: 50
 
-research: "force-projector"
+category: wall
+research: force-projector
