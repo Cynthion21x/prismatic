@@ -34,7 +34,7 @@ ammoTypes: {
     incendChance: 0
     status: {
       name: crippled
-      speedMultiplier: 1
+      speedMultiplier: 0.8
       damageMultiplier: 0.6
       armorMultiplier: 0.2
       damage: 250
