@@ -2,7 +2,7 @@ type: ItemTurret
 reload: 480
 recoil: 2
 shootCone: 30
-range: 400
+range: 100
 cooldown: 0.015
 restitution: 0.015
 size: 3
@@ -44,13 +44,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  copper/700
   lead/750
   titanium/800
   thorium/900
-  surge-alloy/100
   graphite/600
   silicon/550
-  phase-fabric/650
 ]
 category: turret
