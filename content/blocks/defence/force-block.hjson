@@ -1,5 +1,8 @@
 type: DeflectorWall
 
+solid: false
+deflect: true
+
 size: 1
 requirements: [
     thorium/30
