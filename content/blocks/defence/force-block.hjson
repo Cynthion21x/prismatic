@@ -11,5 +11,5 @@ hasShadow: false
 placeableLiquid: true
 health: 50
 
-category: wall
+category: "power"
 research: force-projector
