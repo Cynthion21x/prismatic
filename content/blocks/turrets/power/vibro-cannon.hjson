@@ -3,18 +3,6 @@ category: "turret"
 
 range: 170
 
-size: 3
-
-chargeTime: 45
-chargeMaxDelay: 28
-chargeEffects: 5
-
-shots: 3
-burstSpacing: 100
-
-targetGround: true
-targetAir: true
-
 health: 1200
 
 requirements: [
