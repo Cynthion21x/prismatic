@@ -1,11 +1,16 @@
 type: "Wall"
 
 deflect: true
+insulated: true
 flashHit: true
+
+lightningChance: 0.1
+lightningDamage: 100
+lightningLength:10
+
 health: 800
 size: 1
 
-size: 1
 requirements: [
     thorium/30
     silicon/2
