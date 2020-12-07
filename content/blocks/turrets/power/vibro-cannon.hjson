@@ -1,30 +1,3 @@
-type:" Turret"
-targetAir: false
-targetGround: true
-health: 520
 size: 3
-inaccuracy: 2
-reload: 30
-rotateSpeed: 10
-range 100
-consume: {
-power: 90
-}
-shootType: {
-type: "LaserBulletType"
-length: 100
-damage: 110
-shootEffect: "shootSmall"
-hitColor: e88ec9
-color: e88ec9
-despawnEffect: none
-width: 20
-lifetime: 30
-}
-requirements: [
-  copper/120
-  titanium/50
-  silicon/30
-]
+
 category: "turret"
-research: Lancer
