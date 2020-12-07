@@ -1,12 +1,20 @@
-size: 1
-health: 700
-
 buildVisibility: "sandboxOnly"
+
+size: 1
+health: 70
 
 category: "logic"
 
-instructionsPerTick: 100000
-range: 1000
+requirements: [
+    lead/10
+    copper/2
+    silicon/48
+    graphite/30
+    thorium/10
+]
+
+instructionsPerTick: 999999999
+range: 10
 
 category: logic
 research: hyper-processor
