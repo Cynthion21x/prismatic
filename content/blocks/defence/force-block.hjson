@@ -1,8 +1,9 @@
-type: Wall
+type: "Wall"
 
-solid: true
 deflect: true
 flashHit: true
+health: 800
+size: 1
 
 size: 1
 requirements: [
@@ -10,10 +11,6 @@ requirements: [
     silicon/2
     metaglass/12
 ]
-
-hasShadow: false
-placeableLiquid: true
-health: 50
 
 category: "defense"
 research: force-projector
