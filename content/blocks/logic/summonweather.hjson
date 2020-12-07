@@ -6,3 +6,11 @@ rotate: false
 configurable: true
 solid: true
 update: true
+
+requirements: [
+  titanium/150
+  thorium/40
+  silicon/50
+  graphite/10
+  lead/115
+]
