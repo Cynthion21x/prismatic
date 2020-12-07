@@ -11,7 +11,7 @@ inaccuracy: 15
 spread: 0.05
 targetAir: true
 targetGround: true
-shootSound: quazar
+shootSound: cosmos
 maxAmmo: 20
 ammoTypes: {
   thorium: {
@@ -24,10 +24,10 @@ ammoTypes: {
     drawSize: 0
     hitSize: 16
     pierce: true
-    lifetime: 10
-    knockback: 0
+    lifetime: 15
+    knockback: 5
     ammoMultiplier: 2
-    damage: 1
+    damage: 0.5
     hitEffect: pulverize
     despawnEffect: none
     shootEffect: none
@@ -38,7 +38,7 @@ ammoTypes: {
       speedMultiplier: 0.5
       damageMultiplier: 0.6
       armorMultiplier: 0.2
-      damage: 0
+      damage: 20
       color: 000000
       effect: none
     }
