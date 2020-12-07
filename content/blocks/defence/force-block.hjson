@@ -6,7 +6,7 @@ flashHit: true
 
 lightningChance: 100
 lightningDamage: 80
-lightningLength:10
+lightningLength: 25
 
 health: 800
 size: 1
