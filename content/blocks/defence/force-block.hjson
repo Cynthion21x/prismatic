@@ -2,19 +2,6 @@ size: 1
 category: "power"
 health: 680
 
-rotate: false
-configurable: false
-update: true
-hasShadow: false
-solid: false
-buildCostMultiplier: 0
-expanded: true
-rebuildable: false
-drawDisabled: false
-alwaysReplace: true
-breakSound: "none"
-targetable: false
-
 sync: true,
 hasPower: true,
 outputsPower: true,
