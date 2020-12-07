@@ -1,7 +1,8 @@
-type: DeflectorWall
+type: Wall
 
 solid: true
 deflect: true
+flashHit: true
 
 size: 1
 requirements: [
