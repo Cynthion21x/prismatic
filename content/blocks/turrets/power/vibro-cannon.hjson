@@ -7,7 +7,7 @@ cooldown: 0.015
 restitution: 0.015
 size: 3
 shots: 500
-inaccuracy: 0
+inaccuracy: 15
 spread: 0.05
 targetAir: true
 targetGround: true
@@ -23,7 +23,7 @@ ammoTypes: {
     drawSize: 0
     hitSize: 16
     pierce: true
-    lifetime: 60
+    lifetime: 10
     knockback: 0
     ammoMultiplier: 2
     damage: 1000
