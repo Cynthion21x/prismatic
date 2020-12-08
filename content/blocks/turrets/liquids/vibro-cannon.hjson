@@ -24,7 +24,7 @@ hasLiquids: true
 ammoTypes: {
 
   d-wave: {
-    type: LiquidBulletType
+    type: BasicBulletType
     backColor: ff3399
     frontColor: ff3399
     speed: 12
