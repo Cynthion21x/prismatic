@@ -1,4 +1,4 @@
-type: ItemTurret
+type: LiquidTurret
 
 reload: 480
 recoil: 20
@@ -21,7 +21,7 @@ maxAmmo: 20
 
 ammoTypes: {
 
-  thorium: {
+  d-wave: {
     type: BasicBulletType
     backColor: ff3399
     frontColor: ff3399
