@@ -3,4 +3,5 @@ description: Powerful radioactive material that powers many of Prismatic's letha
 temperature: 0.7
 viscosity: 2
 heatCapacity: 1.4
+damage: 20
 color: ff33cc

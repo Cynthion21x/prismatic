@@ -27,9 +27,8 @@ ammoTypes: {
       type: LiquidBulletType
       drag: 0.03
       speed: 15
-      knockback: 0.1
+      knockback: 1
       ammoMultiplier: 1.2
-      damage: 1
       liquid: "d-wave"
     }
 }
