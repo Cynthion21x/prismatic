@@ -23,8 +23,8 @@ ammoTypes: {
 
   thorium: {
     type: BasicBulletType
-    backColor: 000000
-    frontColor: 000000
+    backColor: ff3399
+    frontColor: ff3399
     speed: 12
     height: 48
     width: 8
