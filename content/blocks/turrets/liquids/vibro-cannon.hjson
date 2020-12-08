@@ -29,6 +29,7 @@ ammoTypes: {
       speed: 15
       knockback: 1
       ammoMultiplier: 1.2
+      damage: 2.5
       liquid: "water"
     }
 
