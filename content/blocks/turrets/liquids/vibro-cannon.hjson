@@ -5,16 +5,20 @@ size : 3
 reload : 3
 range : 160
 recoil : 3
+
 shootShake : 1
-outlineIcon : false
 ammoUseEffect :  none
+
 inaccuracy : 0
 shots : 2
 spread : 8
 rotatespeed : 15
+
 shootSound :  cosmos
 shootEffect :  shootLiquid
+
 hasLiquids: true
+liquidCapacity: 30
 
 ammoTypes: {
 		d-wave: {
