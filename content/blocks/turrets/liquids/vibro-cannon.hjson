@@ -19,10 +19,12 @@ targetGround: true
 shootSound: cosmos
 maxAmmo: 20
 
+hasLiquids: true
+
 ammoTypes: {
 
   d-wave: {
-    type: BasicBulletType
+    type: LiquidBulletType
     backColor: ff3399
     frontColor: ff3399
     speed: 12
