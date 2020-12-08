@@ -6,6 +6,8 @@ reload : 3
 range : 160
 recoil : 3
 
+size: 4
+
 shootShake : 1
 ammoUseEffect :  none
 
@@ -21,13 +23,13 @@ hasLiquids: true
 liquidCapacity: 30
 
 ammoTypes: {
-		d-wave: {
+		water: {
 			type: LiquidBulletType
 			drag: 0.03
 			speed: 15
 		  knockback: 1
 			ammoMultiplier: 1.2
-			liquid: "d-wave"
+			liquid: "water"
 		}
 }
 
