@@ -1,6 +1,6 @@
 name: D-Wave
 description: Powerful radioactive material that powers many of Prismatic's lethal weapons
-temperature: 0.7
-viscosity: 2
+temperature: 1
+viscosity: 0.01
 heatCapacity: 1.4
 color: ff33cc
