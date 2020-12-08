@@ -23,15 +23,6 @@ hasLiquids: true
 liquidCapacity: 30
 
 ammoTypes: {
-    water: {
-      type: LiquidBulletType
-      drag: 0.03
-      speed: 15
-      knockback: 1
-      ammoMultiplier: 1.2
-      damage: 2.5
-      liquid: "water"
-    }
 
     d-wave: {
       type: LiquidBulletType
