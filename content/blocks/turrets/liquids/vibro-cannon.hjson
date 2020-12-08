@@ -14,7 +14,7 @@ spread : 8
 rotatespeed : 15
 shootSound :  cosmos
 shootEffect :  shootLiquid
-hasLiquids": true
+hasLiquids: true
 
 ammoTypes: {
 		d-wave: {
