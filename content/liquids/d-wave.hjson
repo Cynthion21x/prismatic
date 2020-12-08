@@ -1,3 +1,5 @@
+name = "[blue]D-Wave"
+description = "Compressed cosmic energy fuels many lethal weapons."
 temperature: 1
 viscosity: 20
 damage: 20
