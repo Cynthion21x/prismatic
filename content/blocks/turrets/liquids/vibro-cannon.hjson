@@ -25,12 +25,11 @@ ammoTypes: {
 
   d-wave: {
       speed: 15
-      damage: 0.1
-      knockback: 0.01
-      pierce: true
-      ammoMultiplier: 1.5
-      liquid: d-wave
-    }
+    damage: 0.1
+    knockback: 0.01
+    pierce: true
+    ammoMultiplier: 1.5
+    liquid: d-wave
   }
 }
 requirements: [
