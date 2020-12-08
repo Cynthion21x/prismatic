@@ -38,7 +38,7 @@ ammoTypes: {
       speed: 15
       knockback: 1
       ammoMultiplier: 1.2
-      liquid: "d-waver"
+      liquid: "d-wave"
     }
 }
 
