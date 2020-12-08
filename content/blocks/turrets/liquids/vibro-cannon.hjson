@@ -11,9 +11,9 @@ size: 4
 shootShake : 1
 ammoUseEffect :  none
 
-inaccuracy : 0
-shots : 2
-spread : 8
+inaccuracy : 15
+shots : 500
+spread : 30
 rotatespeed : 15
 
 shootSound :  cosmos
