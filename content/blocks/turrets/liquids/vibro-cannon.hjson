@@ -12,8 +12,8 @@ shootShake : 1
 ammoUseEffect :  none
 
 inaccuracy : 15
-shots : 200
-spread : 15
+shots : 100
+spread : 3
 rotatespeed : 15
 
 shootSound :  cosmos
