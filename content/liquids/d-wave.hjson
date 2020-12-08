@@ -3,4 +3,13 @@ description: Powerful radioactive material that powers many of Prismatic's letha
 temperature: 1
 viscosity: 0.01
 heatCapacity: 1.4
+status: {
+             name: Crippled
+             speedMultiplier: 0.5
+             armorMultiplier: 0.5
+             damage: 1.4
+             effect: overdriven
+             color: ff33cc
+           }
+		}
 color: ff33cc
