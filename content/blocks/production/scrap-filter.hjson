@@ -1,0 +1,29 @@
+type: GenericCrafter
+
+size: 2
+health: 60
+craftTime: 3
+craftEffect: pulverize
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+consumes: {
+	items: {
+		items: [
+			sand/4
+		]
+	}
+
+  power: 10
+}
+
+outputItem: scrap/1
+
+requirements: [
+	copper/35
+  lead/10
+]
+
+category: crafting
+research: mechanical-drill
