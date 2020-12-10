@@ -27,9 +27,8 @@ ammoTypes: {
       type: LiquidBulletType
       drag: 0.03
       speed: 15
-      knockback: 2 
-      ammoMultiplier: 1.2
-
+      knockback: 5 
+      ammoMultiplier: 3
       liquid: "water"
     }
 
