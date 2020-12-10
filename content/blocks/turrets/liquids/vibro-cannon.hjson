@@ -54,11 +54,11 @@ ammoTypes: {
 }
 
 requirements: [
-  lead/750
-  titanium/800
-  thorium/900
-  graphite/600
-  silicon/550
+  lead/150
+  titanium/180
+  thorium/50
+  graphite/70
+  silicon/113
 ]
 category: turret
 research: fuse
