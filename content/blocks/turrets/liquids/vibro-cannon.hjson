@@ -35,8 +35,7 @@ ammoTypes: {
                    damage: 0
                    effect: overdriven
                    color: ff33cc
-                 }
-      }   
+                 }   
       ammoMultiplier: 1.2
       pierce: true
 
