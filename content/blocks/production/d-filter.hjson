@@ -14,14 +14,14 @@ consumes: {
 	
 		liquid: {
   			liquid: impured-wave
-  			amount: 4.00
+  			amount: 0.4
 		}
 	
 
   power: 180
 }
 
-outputLiquid: d-wave/2
+outputLiquid: d-wave/0.2
 
 requirements: [
 	copper/120
