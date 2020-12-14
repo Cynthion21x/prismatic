@@ -42,6 +42,9 @@ ammoTypes: {
       damage: 1
       pierce: true
       liquid: "d-wave"
+      }
+     
+     
      slag: {
       type: LiquidBulletType
       drag: 0.03
@@ -51,7 +54,7 @@ ammoTypes: {
       damage: 1
       pierce: true
       liquid: "slag"
-   }
+   
 
       status: {
                    name: Crippled
