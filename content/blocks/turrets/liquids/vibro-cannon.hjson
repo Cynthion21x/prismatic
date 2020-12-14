@@ -56,17 +56,7 @@ ammoTypes: {
     }
 }
  
-     slag: {
-      type: LiquidBulletType
-      drag: 0.03
-      speed: 15
-      knockback: 1
-      ammoMultiplier: 1.2
-      damage: 1
-      pierce: true
-      liquid: "slag"
-   }
-
+    
 requirements: [
   lead/150
   titanium/180
