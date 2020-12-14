@@ -1,8 +1,8 @@
 name: Impure D-Wave
 description: You can probably filter this to make something powerful. Highly Unstable
 temperature: 1
-viscosity: 0.01
-heatCapacity: 1.4
+viscosity: 1
+heatCapacity: 0.2
 status: {
              name: Crippled
              speedMultiplier: 0.5
