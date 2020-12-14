@@ -11,8 +11,8 @@ hasItems: false
 outputsLiquid: true
 solid: true
 consumes: {
-	liquid: {
-		liquid: [
+	liquids: {
+		liquids: [
 			impured-wave/4
 		]
 	}
