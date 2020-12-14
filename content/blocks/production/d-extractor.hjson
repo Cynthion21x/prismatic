@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: SolidPump
 
 size: 3
 health: 150
@@ -25,5 +25,5 @@ requirements: [
   titanium/70
 ]
 
-category: drill
+category: liquid
 research: cryofluid-mixer
