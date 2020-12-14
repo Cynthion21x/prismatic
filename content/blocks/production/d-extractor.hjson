@@ -1,22 +1,19 @@
-type: GenericCrafter
+type: SolidPump
 
 size: 3
 health: 150
 craftTime: 3
-craftEffect: pulverize
 
 hasPower: true
 hasLiquids: true
-hasItems: false
-outputsLiquid: true
-solid: true
+
 consumes: {
 	
 
   power: 250
 }
 
-outputLiquid: impured-wave/0.2
+result: impured-wave/0.4
 
 requirements: [
 	copper/150
