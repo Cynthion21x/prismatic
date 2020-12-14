@@ -3,18 +3,19 @@ type: "Wall"
 deflect: true
 insulated: true
 flashHit: true
+hasShadow: false
 
 lightningChance: 100
-lightningDamage: 60
-lightningLength: 15
+lightningDamage: 35
+lightningLength: 25
 
-health: 800
+health: 650
 size: 1
 
 requirements: [
-    thorium/30
-    silicon/2
-    metaglass/12
+    thorium/3
+    silicon/1
+    metaglass/5
 ]
 
 category: "defense"
