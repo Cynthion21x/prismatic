@@ -1,8 +1,10 @@
 name: Impure D-Wave
 description: D-energy in its purest form. Highly Unstable
-temperature: 1
+temperature: 1.3
 viscosity: 0.8
 heatCapacity: 0.2
 effect: burning
 statusEffect: melting
+explosiveness: 1
+flammability: 0.5
 color: 385947
