@@ -1,0 +1,33 @@
+type: LiquidConverter
+
+size: 2
+health: 150
+craftTime: 3
+craftEffect: pulverize
+
+hasPower: true
+hasLiquids: true
+hasItems: false
+outputsLiquid: true
+solid: true
+consumes: {
+	liquid: {
+		liquid: [
+			impured-wave/4
+		]
+	}
+
+  power: 180
+}
+
+outputLiquid: d-wave/2
+
+requirements: [
+	copper/120
+  lead/50
+  thorium/80
+  titanium/60
+]
+
+category: crafting
+research: cryofluid-mixer
