@@ -1,4 +1,4 @@
-type: SolidPump
+type: GenericCrafter
 
 size: 3
 health: 150
