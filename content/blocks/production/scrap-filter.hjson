@@ -15,7 +15,7 @@ consumes: {
 		]
 	}
 
-  power: 10
+  power: 3
 }
 
 outputItem: scrap/1
