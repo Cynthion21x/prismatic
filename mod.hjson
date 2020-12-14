@@ -1,8 +1,8 @@
 name: "prismatic"
 displayName: "[blue] Prismatic"
-author: "ice100k"
+author: "ice100k, thecrisperson"
 description: "A [blue] prismatic mod []. Inspired by PrismTheGame this mod adds various new weapons to the game."
-version: "1.2.89 ALPHA"
+version: "1.3.92 ALPHA"
 minGameVersion: "121"
 dependencies: [ ]
 hidden: false
