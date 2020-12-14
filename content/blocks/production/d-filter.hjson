@@ -18,7 +18,7 @@ consumes: {
 		}
 	
 
-  power: 180
+  power: 3
 }
 
 outputLiquid: d-wave/0.2
