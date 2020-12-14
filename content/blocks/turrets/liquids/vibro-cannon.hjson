@@ -42,20 +42,9 @@ ammoTypes: {
       damage: 1
       pierce: true
       liquid: "d-wave"
-      }
+      
      
-     
-     slag: {
-      type: LiquidBulletType
-      drag: 0.03
-      speed: 15
-      knockback: 1
-      ammoMultiplier: 1.2
-      damage: 1
-      pierce: true
-      liquid: "slag"
-   
-
+    
       status: {
                    name: Crippled
                    speedMultiplier: 0.5
@@ -66,6 +55,17 @@ ammoTypes: {
                  }
     }
 }
+ 
+     slag: {
+      type: LiquidBulletType
+      drag: 0.03
+      speed: 15
+      knockback: 1
+      ammoMultiplier: 1.2
+      damage: 1
+      pierce: true
+      liquid: "slag"
+   
 
 requirements: [
   lead/150
