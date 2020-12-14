@@ -65,7 +65,7 @@ ammoTypes: {
       damage: 1
       pierce: true
       liquid: "slag"
-   
+   }
 
 requirements: [
   lead/150
