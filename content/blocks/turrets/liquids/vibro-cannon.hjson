@@ -51,6 +51,7 @@ ammoTypes: {
       damage: 1
       pierce: true
       liquid: "slag"
+   }
 
       status: {
                    name: Crippled
