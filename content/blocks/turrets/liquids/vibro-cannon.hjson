@@ -64,6 +64,7 @@ requirements: [
   thorium/50
   graphite/70
   silicon/113
+  plastanium/60
 ]
 category: turret
 research: fuse
