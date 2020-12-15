@@ -1,4 +1,4 @@
-type: Block
+type: SolidPump
 
 size: 2
 health: 150
@@ -20,7 +20,7 @@ consumes: {
 }
 
 result: impured-wave
-
+pumpAmount: 0.4
 requirements: [
   copper/200
   lead/70
