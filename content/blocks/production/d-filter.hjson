@@ -10,6 +10,9 @@ hasLiquids: true
 hasItems: false
 outputsLiquid: true
 solid: true
+
+liquidCapacity: 60.0
+
 consumes: {
 	
 		liquid: {
