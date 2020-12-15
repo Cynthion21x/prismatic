@@ -1,4 +1,4 @@
-type: Drill
+type: production
 
 size: 2
 health: 150
@@ -28,5 +28,5 @@ requirements: [
   titanium/70
 ]
 
-category: production
+category: drill
 research: cryofluid-mixer
