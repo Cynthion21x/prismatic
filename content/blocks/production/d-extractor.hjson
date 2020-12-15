@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: Drill
 
 size: 2
 health: 150
@@ -28,5 +28,5 @@ requirements: [
   titanium/70
 ]
 
-category: crafting
+category: Drill
 research: cryofluid-mixer
