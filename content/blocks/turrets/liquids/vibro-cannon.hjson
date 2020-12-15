@@ -40,21 +40,36 @@ ammoTypes: {
       speed: 15
       knockback: 1
       ammoMultiplier: 0.4
-      damage: 1
+      damage: 1.5
       pierce: true
-      liquid: "d-wave"
-      
-     
+      liquid: "d-wave" 
     
       status: {
                    name: Crippled
                    speedMultiplier: 0.5
                    armorMultiplier: 0.5
-                   damage: 2
+                   damage: 2.5
                    effect: overdriven
                    color: ff33cc
                  }
     }
+    
+    slag: {
+      type: LiquidBulletType
+      drag: 0.03
+      speed: 15
+      knockback: 3
+      damage: 1
+      ammoMultiplier: 1
+      liquid: "slag"
+      
+       status: {
+                   name: Melting
+                   damage: 3
+                 }
+    }
+    
+  
 }
  
     
