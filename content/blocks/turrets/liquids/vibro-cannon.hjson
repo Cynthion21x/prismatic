@@ -1,6 +1,7 @@
 type: LiquidTurret
 
-health : 1700
+health : 1125
+
 size : 3
 reload : 3
 range : 300
