@@ -19,7 +19,7 @@ consumes: {
   power: 2
 }
 
-outputLiquid: impured-wave/0.4
+result: impured-wave
 
 requirements: [
   copper/200
