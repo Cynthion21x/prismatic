@@ -1,4 +1,4 @@
-type: production
+type: GenericCrafter
 
 size: 2
 health: 150
@@ -28,5 +28,5 @@ requirements: [
   titanium/70
 ]
 
-category: drill
+category: production
 research: cryofluid-mixer
