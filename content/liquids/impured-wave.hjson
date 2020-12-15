@@ -6,5 +6,5 @@ heatCapacity: 0.2
 effect: burning
 statusEffect: melting
 explosiveness: 1
-flammability: 0.5
+flammability: 0.1
 color: 385947
