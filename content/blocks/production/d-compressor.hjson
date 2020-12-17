@@ -1,0 +1,34 @@
+type: GenericCrafter
+
+size: 2
+health: 60
+craftTime: 8
+craftEffect: pulverize
+
+hasPower: true
+hasLiquids: true
+hasItems: true
+consumes: {
+	items: {
+		items: [
+			titanium/4
+		]
+	}
+	liquids: {
+		liquids: [
+			d-wave/12
+		]
+	}
+
+  power: 3
+}
+
+outputItem: d-iron/1
+
+requirements: [
+	copper/35
+  lead/10
+]
+
+category: crafting
+research: mechanical-drill
