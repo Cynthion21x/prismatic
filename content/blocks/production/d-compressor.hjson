@@ -2,8 +2,8 @@ type: GenericCrafter
 
 size: 2
 health: 120
-craftTime: 20
-craftEffect: pulverize
+craftTime: 60
+craftEffect: purify
 
 hasPower: true
 hasLiquids: true
@@ -11,15 +11,15 @@ hasItems: true
 consumes: {
 	items: {
 		items: [
-			titanium/4
+			titanium/2
 		]
 	}
 	liquid: {
 		liquid: d-wave
-  		amount: 0.2
+  		amount: 5.8
 	}
 
-  power: 3
+  power: 16
 }
 
 outputItem: d-iron/1
