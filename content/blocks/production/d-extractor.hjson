@@ -16,7 +16,7 @@ liquidCapacity: 20.0
 consumes: {
 		
 	
-  power: 2
+  power: 15
 }
 
 result: impured-wave
