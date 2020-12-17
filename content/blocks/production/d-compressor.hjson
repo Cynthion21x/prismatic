@@ -1,8 +1,8 @@
 type: GenericCrafter
 
 size: 2
-health: 60
-craftTime: 8
+health: 120
+craftTime: 20
 craftEffect: pulverize
 
 hasPower: true
@@ -16,7 +16,7 @@ consumes: {
 	}
 	liquid: {
 		liquid: d-wave
-  		amount: 12
+  		amount: 0.2
 	}
 
   power: 3
@@ -25,8 +25,12 @@ consumes: {
 outputItem: d-iron/1
 
 requirements: [
-	copper/35
-  lead/10
+	
+  	lead/120
+  	titanium/100
+  	plastanium/20
+  	silicon/40
+
 ]
 
 category: crafting
