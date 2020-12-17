@@ -10,7 +10,7 @@ hasLiquids: true
 hasItems: false
 outputsLiquid: true
 solid: true
-
+effect: purify
 liquidCapacity: 60.0
 
 consumes: {
