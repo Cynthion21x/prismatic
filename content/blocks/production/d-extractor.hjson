@@ -20,7 +20,7 @@ consumes: {
 }
 
 result: impured-wave
-pumpAmount: 0.4
+pumpAmount: 0.2
 requirements: [
   copper/200
   lead/70
