@@ -14,8 +14,8 @@ consumes: {
 			titanium/4
 		]
 	}
-	liquids: {
-		liquids: [
+	liquid: {
+		liquid: [
 			d-wave/12
 		]
 	}
