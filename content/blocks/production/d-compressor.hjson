@@ -16,10 +16,10 @@ consumes: {
 	}
 	liquid: {
 		liquid: d-wave
-  		amount: 1
+  		amount: 0.2
 	}
 
-  power: 16
+  power: 0.3
 }
 
 outputItem: d-iron/1
