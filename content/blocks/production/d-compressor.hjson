@@ -3,7 +3,7 @@ type: GenericCrafter
 size: 2
 health: 120
 craftTime: 60
-craftEffect: purify
+craftEffect: fuelburn
 
 hasPower: true
 hasLiquids: true
