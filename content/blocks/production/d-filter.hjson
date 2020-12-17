@@ -3,7 +3,7 @@ type: LiquidConverter
 size: 3
 health: 150
 craftTime: 3
-craftEffect: fuelburn
+updateEffect: purify
 
 hasPower: true
 hasLiquids: true
