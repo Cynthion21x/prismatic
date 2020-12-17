@@ -3,14 +3,13 @@ type: LiquidConverter
 size: 3
 health: 150
 craftTime: 3
-craftEffect: pulverize
+craftEffect: purify
 
 hasPower: true
 hasLiquids: true
 hasItems: false
 outputsLiquid: true
 solid: true
-effect: purify
 liquidCapacity: 60.0
 
 consumes: {
