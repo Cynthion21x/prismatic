@@ -15,9 +15,8 @@ consumes: {
 		]
 	}
 	liquid: {
-		liquid: [
-			d-wave/12
-		]
+		liquid: d-wave
+  		amount: 12
 	}
 
   power: 3
