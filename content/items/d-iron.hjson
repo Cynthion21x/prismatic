@@ -1,6 +1,6 @@
 name: D-Iron
-description: D-energy Mixed With Titanium, Very Good For Power Generation If A Hot Substance Is Applied.
+description: D-energy compressed down into a solid, due to the energy being highly compressed it's highly unstable.
 color: c42b9e
-explosiveness: 1
-radioactivity: 0.5
+explosiveness: 1.3
+radioactivity: 1
 ItemType: material
