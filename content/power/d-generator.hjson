@@ -16,8 +16,9 @@ consumes: {
   			amount: 0.1
 		}
     items: {
-        item: d-iron
-        amount: 1
+      items: [
+        d-iron/2
+      ]
     }
 	
 
