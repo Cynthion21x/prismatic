@@ -16,11 +16,11 @@ liquidCapacity: 20.0
 consumes: {
 		
 	
-  power: 2.5
+  power: 1.2
 }
 
 result: impured-wave
-pumpAmount: 0.2
+pumpAmount: 0.1
 requirements: [
   copper/200
   lead/70
