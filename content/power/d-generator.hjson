@@ -1,0 +1,42 @@
+type: NuclearReactor
+
+size: 3
+health: 150
+craftTime: 3
+
+
+hasLiquids: true
+hasItems: true
+solid: true
+liquidCapacity: 60.0
+lightColor: 7f19ea   
+coolColor: ffffff00   
+hotColor: ff9575a3
+
+consumes: {
+	
+		liquid: {
+  			liquid: d-wave
+  			amount: 0.1
+		}
+    items: {
+        liquid: d-iron
+        amount: 1
+    }
+	
+
+  
+}
+
+powerProduction: 450
+
+requirements: [
+	copper/120
+  lead/190
+  thorium/120
+  titanium/60
+  plastanium/60
+]
+
+category: power
+research: thorium-reactor
