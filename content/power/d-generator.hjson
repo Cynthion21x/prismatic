@@ -4,10 +4,6 @@ size: 3
 health: 150
 craftTime: 3
 
-
-hasLiquids: true
-hasItems: true
-solid: true
 liquidCapacity: 60.0
 lightColor: 7f19ea   
 coolColor: ffffff00   
@@ -20,7 +16,7 @@ consumes: {
   			amount: 0.1
 		}
     items: {
-        liquid: d-iron
+        item: d-iron
         amount: 1
     }
 	
