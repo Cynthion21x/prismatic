@@ -25,7 +25,7 @@ consumes: {
   
 }
 
-powerProduction: 450
+powerProduction: 450.0
 
 requirements: [
 	copper/120
