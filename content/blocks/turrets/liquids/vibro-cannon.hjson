@@ -1,8 +1,6 @@
 type: LiquidTurret
 
 health : 1125
-
-size : 3
 reload : 3
 range : 300
 recoil : 50
@@ -10,11 +8,11 @@ recoil : 50
 size: 4
 
 shootShake : 1
-ammoUseEffect :  none
+ammoUseEffect : none
 
-inaccuracy : 0
-shots : 100
-spread : 1
+inaccuracy : 2
+shots : 150
+spread : 0.8
 rotatespeed : 15
 
 shootSound :  cosmos
@@ -60,7 +58,7 @@ ammoTypes: {
       speed: 15
       knockback: 3
       damage: 1
-      ammoMultiplier: 1
+      ammoMultiplier: 0.6
       liquid: "slag"
       
        status: {
@@ -75,11 +73,11 @@ ammoTypes: {
     
 requirements: [
   lead/150
-  titanium/180
-  thorium/50
-  graphite/70
+  titanium/80
+  thorium/20
+  graphite/60
   silicon/113
-  plastanium/60
+  d-iron/60
 ]
 category: turret
 research: fuse

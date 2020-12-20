@@ -6,8 +6,8 @@ flashHit: true
 hasShadow: false
 
 lightningChance: 100
-lightningDamage: 35
-lightningLength: 25
+lightningDamage: 15
+lightningLength: 9.8
 
 health: 650
 size: 1
