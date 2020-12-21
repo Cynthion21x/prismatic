@@ -4,19 +4,14 @@ description: Creates the siege engine
 size: 7
 consumes: {
   power: 5.0
-  liquid: d-wave/0.5
+  
 }
 plans: [
   {
     unit: siegeengine
     time: 580
     requirements: [
-      thorium/2000
-      d-iron/1000
-      plastanium/900
-      lead/850
-      silicon/3000
-      
+      copper/1
     ]
    }
 
