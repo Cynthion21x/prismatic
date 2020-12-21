@@ -1,0 +1,39 @@
+commandLimit: 50
+speed: 0.5
+drag: 0.13
+accel: 0.4
+rotateSpeed: 2.5
+health: 10000
+armor: 500
+range: 200
+itemCapacity: 600
+hitSize: 18
+rotateShooting: false
+buildSpeed: 1.5
+
+weapons:[
+  {
+    name: siege engine gun
+    reload: 11
+    x: 5
+    y: 7
+    shootX: -0.625
+    shootY: 2.75
+    recoil: 1
+    rotate: true
+    top: true
+    shootSound: lasershoot
+    inaccuracy: 1
+    bullet:{
+      type: LaserBoltBulletType
+      shootEffect: shootHeal
+      damage: 7
+      healPercent: 1.5
+      collidesTeam: true
+      backColor: 98ffa9
+      frontColor: ffffff
+      speed: 5.5
+      lifetime: 40
+    }
+  }
+]
