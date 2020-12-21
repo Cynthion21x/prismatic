@@ -19,13 +19,13 @@ consumes: {
   		amount: 0.2
 	}
 
-  power: 0.3
+  power: 3
 }
 
 outputItem: d-iron/1
 
 requirements: [
-	
+
   	lead/120
   	titanium/100
   	plastanium/20

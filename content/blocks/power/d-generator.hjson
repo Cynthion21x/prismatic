@@ -27,7 +27,7 @@ liquid: {
 
 
 
-powerProduction: 450.0
+powerProduction: 45
 
 requirements: [
 	copper/120
@@ -35,6 +35,7 @@ requirements: [
   thorium/120
   titanium/60
   plastanium/60
+	d-iron: 80
 ]
 
 category: power
