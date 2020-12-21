@@ -2,6 +2,8 @@ type: UnitFactory
 name: Siege Manufacturer
 description: Creates the siege engine
 size: 7
+health: 1800
+hasItems: true
 consumes: {
   power: 5.0
   
