@@ -8,6 +8,7 @@ liquidCapacity: 60.0
 lightColor: 7f19ea
 coolColor: ffffff00
 hotColor: ff9575a3
+itemDuration: 260
 
 consumes: {
 
@@ -18,7 +19,7 @@ items: {
 }
 liquid: {
 	liquid: d-wave
-		amount: 0.2
+		amount: 0.16
 }
 
   }
