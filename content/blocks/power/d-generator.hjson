@@ -35,7 +35,7 @@ requirements: [
   thorium/120
   titanium/60
   plastanium/60
-	d-iron: 80
+	d-iron/80
 ]
 
 category: power
