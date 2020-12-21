@@ -66,10 +66,6 @@ ammoTypes: {
                    damage: 3
                  }
     }
-    
-  
-}
-
     cryofluid: {
       type: LiquidBulletType
       drag: 0.03
@@ -88,6 +84,11 @@ ammoTypes: {
                    color: ff33cc
                  }
     }
+    
+  
+}
+
+    
  
     
 requirements: [
