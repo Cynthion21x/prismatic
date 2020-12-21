@@ -27,7 +27,7 @@ ammoTypes: {
       drag: 0.03
       speed: 15
       knockback: 3
-      damage: 0.1
+      damage: 0.0
       ammoMultiplier: 1
       liquid: "water"
     }
@@ -36,7 +36,7 @@ ammoTypes: {
       type: LiquidBulletType
       drag: 0.03
       speed: 15
-      knockback: 1
+      knockback: 0
       ammoMultiplier: 0.4
       damage: 1.5
       pierce: true
@@ -56,7 +56,7 @@ ammoTypes: {
       type: LiquidBulletType
       drag: 0.03
       speed: 15
-      knockback: 3
+      knockback: 0
       damage: 1
       ammoMultiplier: 0.6
       pierce: true
@@ -71,7 +71,7 @@ ammoTypes: {
       type: LiquidBulletType
       drag: 0.03
       speed: 15
-      knockback: 1
+      knockback: 0
       ammoMultiplier: 0.4
       damage: 0.5
       pierce: true
