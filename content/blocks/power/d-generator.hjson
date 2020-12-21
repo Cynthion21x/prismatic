@@ -11,13 +11,15 @@ hotColor: ff9575a3
 
 consumes: {
 
-		liquid: {
-  			liquid: d-wave
-  			amount: 0.1
-		}
-    items: {
-      d-iron/2
-    }
+items: {
+	items: [
+		d-iron/1
+	]
+}
+liquid: {
+	liquid: d-wave
+		amount: 0.2
+}
 
   }
 
