@@ -1,0 +1,24 @@
+type: UnitFactory
+name: Siege Manufacturer
+description: Creates the siege engine
+size: 7
+consumes: {
+  power: 5.0
+  liquid: d-wave/0.5
+}
+plans: [
+  {
+    unit: siegeengine
+    time: 580
+    requirements: [
+      thorium/2000
+      d-iron/1000
+      plastanium/900
+      surge/1200
+      lead/850
+      silicon/3000
+      
+    ]
+
+]
+category: units
