@@ -59,7 +59,7 @@ ammoTypes: {
       knockback: 3
       damage: 1
       ammoMultiplier: 0.6
-      liquid: "slag"
+      liquid: "cyrofluid"
       
        status: {
                    name: Melting
