@@ -5,27 +5,30 @@ health: 150
 craftTime: 3
 
 liquidCapacity: 60.0
-lightColor: 7f19ea   
-coolColor: ffffff00   
+lightColor: 7f19ea
+coolColor: ffffff00
 hotColor: ff9575a3
+itemDuration: 260
 
 consumes: {
-	
-		liquid: {
-  			liquid: d-wave
-  			amount: 0.1
-		}
-    items: {
-      d-iron/2
-    }
-      
-    }
-	
 
-  
+items: {
+	items: [
+		d-iron/1
+	]
+}
+liquid: {
+	liquid: d-wave
+		amount: 0.16
 }
 
-powerProduction: 450.0
+  }
+
+
+
+
+
+powerProduction: 45
 
 requirements: [
 	copper/120
@@ -33,6 +36,7 @@ requirements: [
   thorium/120
   titanium/60
   plastanium/60
+	d-iron/80
 ]
 
 category: power
