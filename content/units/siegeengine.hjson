@@ -25,11 +25,8 @@ weapons:[
     shootSound: lasershoot
     inaccuracy: 1
     bullet:{
-      type: LaserBoltBulletType
-      shootEffect: shootHeal
-      damage: 7
-      healPercent: 1.5
-      collidesTeam: true
+      type: LaserBulletType
+      damage: 7000
       backColor: 98ffa9
       frontColor: ffffff
       speed: 5.5
