@@ -21,83 +21,47 @@ mineTier: 5
 
 canDrown: false
 
-weapons:[
-  {
-    name: Laser-Boi
-    reload: 57
-    x: 19.25
-    y: -17.25
-    shootY: 7
-    recoil: 4
-    rotate: true
-    continuous: true
-    cooldownTime: 120
-    shootSound: beam
-    rotateSpeed: 7
-    shootCone: 180
-    bullet: {
-      type: ContinuousLaserBulletType
-      lifetime: 80
-      damage: 20
-      hitColor: 8AA3F4
-      colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
-      lightColor: 8AA3F4
-      length: 128
-      width: 3.5
-      shake: 0.25
-    }
+weapons: [
+{
+  name: chaoscannon
+  x: 0
+  y: 0
+  shootSound: laserblast
+  chargeSound: lasercharge
+  soundPitchMin: 1
+  top: false
+  mirror: false
+  shake: 18
+  shootY: 5
+  reload: 0
+  recoil: 0
+  cooldownTime: 350
+  shootStatusDuration: 120
+  shootStatus: unmoving
+  firstShotDelay: 70
+  bullet: {
+    type: LaserBulletType
+    length: 1200
+    damage: 1080
+    width: 90
+    lifetime: 25
+    lightningSpacing: 35
+    lightningLength: 7
+    lightningDelay: 1.1
+    lightningLengthRand: 20
+    lightningDamage: 2500
+    lightningAngleRand: 40
+    largeHit: true
+    lightColor: ff0000
+    lightningColor: 000000
+    shootEffect: greenLaserCharge
+    healPercent: 100
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [
+      f0e4a848, ff0000, ffffff
+    ]
   }
-  {
-    name: Laser-Boi
-    reload: 57
-    x: 19.25
-    y: -17.25
-    shootY: 7
-    recoil: 4
-    rotate: true
-    continuous: true
-    cooldownTime: 120
-    shootSound: beam
-    rotateSpeed: 7
-    shootCone: 180
-    bullet: {
-      type: ContinuousLaserBulletType
-      lifetime: 80
-      damage: 20
-      hitColor: 8AA3F4
-      colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
-      lightColor: 8AA3F4
-      length: 128
-      width: 3.5
-      shake: 0.25
-    }
-  }
-
-
-
-
-  {
-    name: Big-Laser-Boi
-    reload: 100
-    x: 0
-    y: 0
-    shootY: 7
-    recoil: 10
-    rotate: true
-    continuous: false
-    cooldownTime: 150
-    rotateSpeed: 7
-    shootCone: 180
-    bullet: {
-      type: LaserBulletType
-      lifetime: 20
-      damage: 1080
-      hitColor: 8AA3F4
-      colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
-      lightColor: 8AA3F4
-      length: 350
-      width: 87
-      shake: 0.25
-    }
-  }
-]
+}]
