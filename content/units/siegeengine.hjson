@@ -41,22 +41,20 @@ weapons: [
   firstShotDelay: 70
   bullet: {
     type: LaserBulletType
-    length: 1200
+    length: 170
     damage: 1080
     width: 90
     lifetime: 25
     lightningSpacing: 35
-    lightningLength: 7
+    lightningLength: 5
     lightningDelay: 1.1
-    lightningLengthRand: 20
-    lightningDamage: 2500
+    lightningLengthRand: 15
+    lightningDamage: 50
     lightningAngleRand: 40
     largeHit: true
     lightColor: ff0000
     lightningColor: 000000
-    shootEffect: greenLaserCharge
-    healPercent: 100
-    collidesTeam: true
+    shootEffect: blueLaserCharge
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
