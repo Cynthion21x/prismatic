@@ -59,7 +59,7 @@ weapons: [
     largeHit: true
     lightColor: ff0000
     lightningColor: 000000
-    shootEffect: absorb
+    shootEffect: greenLaserCharge
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
