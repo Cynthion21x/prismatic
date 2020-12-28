@@ -4,6 +4,8 @@ size: 3
 health: 150
 craftTime: 3
 
+hasLiquids: true
+
 liquidCapacity: 60.0
 lightColor: 7f19ea
 coolColor: ffffff00
@@ -26,8 +28,6 @@ liquid: {
 
 
 
-
-
 powerProduction: 45
 
 requirements: [
@@ -39,5 +39,7 @@ requirements: [
 	d-iron/80
 ]
 
+ambientSound: beam
+ambientSoundVolume: 0.5
 category: power
 research: thorium-reactor
