@@ -1,4 +1,4 @@
-type: Unit
+type: LegsUnit
 
 flying: false
 targetAir: true
