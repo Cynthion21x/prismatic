@@ -13,11 +13,11 @@ commandLimit: 12
 allowLegStep: true
 legCount: 4
 
-legExtension: 5
+legExtension: 20
 
 legSplashDamage: 150
 legSplashRange: 10
-mechStepShake: 17.0
+mechStepShake: 20.0
 mechStepParticles: true
 
 mineTier: 5
@@ -34,7 +34,7 @@ weapons: [
   shootSound: laserblast
   chargeSound: lasercharge
   soundPitchMin: 1
-  top: false
+  top:false
   mirror: false
   shake: 16
   shootY: 5
@@ -43,7 +43,7 @@ weapons: [
   cooldownTime: 350
   shootStatusDuration: 12
   shootStatus: unmoving
-  firstShotDelay: 70
+  firstShotDelay: 90
   bullet: {
     type: LaserBulletType
     length: 340
