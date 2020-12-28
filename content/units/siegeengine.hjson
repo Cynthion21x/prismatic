@@ -23,8 +23,8 @@ canDrown: false
 
 weapons:[
   {
-    name: dart-weapon
-    reload: 15
+    name: Siege-Cannon
+    reload: 60
     x: 4.5
     y: 10
     shootY: 1
@@ -33,86 +33,47 @@ weapons:[
     shootSound: lasershoot
     shootCone: 25
     bullet:{
-      type: LaserBoltBulletType
-      damage: 19
+      type: ContinuousLaserBulletType
+      damage: 250
       backColor: a9d8ff
       frontColor: ffffff
       speed: 4
-      lifetime: 40
+      lifetime: 150
     }
   }
   {
-    name: dart-weapon
-    reload: 19
-    x: 8.5
-    y: 5.75
-    shootY: 1
-    rotate: true
-    recoil: 1
-    shootSound: lasershoot
-    shootCone: 25
-    bullet:{
-      type: LaserBoltBulletType
-      damage: 20
-      backColor: a9d8ff
-      frontColor: ffffff
-      speed: 4
-      lifetime: 40
-    }
-  }
-  {
-    name: dart-weapon
-    reload: 23
-    x: 16
-    y: -7
-    shootY: 1
-    rotate: true
-    recoil: 1
-    shootSound: lasershoot
-    shootCone: 25
-    bullet:{
-      type: LaserBoltBulletType
-      damage: 21
-      backColor: a9d8ff
-      frontColor: ffffff
-      speed: 4
-      lifetime: 40
-    }
-  }
-  {
-    name: spear-laser
+    name: Siege-Cannon
     reload: 60
-    x: 8.75
-    y: -6
-    shootY: 6
-    recoil: 2.5
-    shake: 1.5
+    x: 4.5
+    y: 10
+    shootY: 1
     rotate: true
-    shootSound: laser
-    rotateSpeed: 10
-    shootCone: 45
+    recoil: 1
+    shootSound: lasershoot
+    shootCone: 25
     bullet:{
-      type: LaserBulletType
-      length: 142
-      width: 14
-      damage: 56
-      hitColor: a9d8ff
-      colors:[8aa3f466, a9d8ff, FFFFFF]
-      sideAngle: 25
-      sideLength: 70
-      sideWidth: 1
+      type: ContinuousLaserBulletType
+      damage: 250
+      backColor: a9d8ff
+      frontColor: ffffff
+      speed: 4
+      lifetime: 150
     }
   }
+ 
+  
+  
+  
   {
     name: javelin-laser
-    reload: 30
+    reload: 120
     x: 0
     y: -14
     mirror: false
     shootY: 7.5
     recoil: 2
     shake: 0.75
-    rotate: true
+    rotate: false
     shootSound: railgun
     rotateSpeed: 15
     shootEffect: hitLancer
@@ -122,7 +83,7 @@ weapons:[
       type: ContinuousLaserBulletType
       absorbable: true
       keepVelocity: true
-      length: 18
+      length: 150
       width: 3
       damage: 15
       hitColor: 8AA3F4
@@ -134,7 +95,7 @@ weapons:[
       oscScl: 0.5
       oscMag: 1
       fadeTime: 30
-      makeFire: false
+      makeFire: true
       incendAmount: 1
       incendChance: 0.01
       tscales: [1, 0.75, 0.55, 0.4]
