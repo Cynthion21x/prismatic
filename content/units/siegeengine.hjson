@@ -18,7 +18,7 @@ legExtension: 5
 legSplashDamage: 150
 legSplashRange: 10
 mechStepShake: 17
-
+mechStepParticles: true
 
 mineTier: 5
 
