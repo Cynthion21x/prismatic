@@ -38,13 +38,13 @@ weapons: [
   reload: 0
   recoil: 0
   cooldownTime: 350
-  shootStatusDuration: 120
+  shootStatusDuration: 12
   shootStatus: unmoving
   firstShotDelay: 70
   bullet: {
     type: LaserBulletType
     length: 340
-    damage: 1080
+    damage: 504
     width: 90
     lifetime: 25
     lightningSpacing: 60
