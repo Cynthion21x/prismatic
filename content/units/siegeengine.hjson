@@ -1,4 +1,4 @@
-type: LegUnit
+type: LegsUnit
 
 flying: false
 targetAir: true
@@ -72,10 +72,10 @@ weapons:[
       shake: 0.25
     }
   }
- 
-  
-  
-  
+
+
+
+
   {
     name: Big-Laser-Boi
     reload: 100
