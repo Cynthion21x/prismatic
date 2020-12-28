@@ -23,41 +23,53 @@ canDrown: false
 
 weapons:[
   {
-    name: Siege-Cannon
-    reload: 60
-    x: 4.5
-    y: 10
-    shootY: 1
+    name: Laser-Boi
+    reload: 57
+    x: 19.25
+    y: -17.25
+    shootY: 7
+    recoil: 4
     rotate: true
-    recoil: 1
-    shootSound: lasershoot
-    shootCone: 25
-    bullet:{
+    continuous: true
+    cooldownTime: 120
+    shootSound: beam
+    rotateSpeed: 7
+    shootCone: 180
+    bullet: {
       type: ContinuousLaserBulletType
-      damage: 250
-      backColor: a9d8ff
-      frontColor: ffffff
-      speed: 4
-      lifetime: 150
+      lifetime: 80
+      damage: 20
+      hitColor: 8AA3F4
+      colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
+      lightColor: 8AA3F4
+      length: 128
+      width: 3.5
+      shake: 0.25
     }
   }
   {
-    name: Siege-Cannon
-    reload: 60
-    x: 4.5
-    y: 10
-    shootY: 1
+    name: Laser-Boi
+    reload: 57
+    x: 19.25
+    y: -17.25
+    shootY: 7
+    recoil: 4
     rotate: true
-    recoil: 1
-    shootSound: lasershoot
-    shootCone: 25
-    bullet:{
+    continuous: true
+    cooldownTime: 120
+    shootSound: beam
+    rotateSpeed: 7
+    shootCone: 180
+    bullet: {
       type: ContinuousLaserBulletType
-      damage: 250
-      backColor: a9d8ff
-      frontColor: ffffff
-      speed: 4
-      lifetime: 150
+      lifetime: 80
+      damage: 20
+      hitColor: 8AA3F4
+      colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
+      lightColor: 8AA3F4
+      length: 128
+      width: 3.5
+      shake: 0.25
     }
   }
  
@@ -65,41 +77,28 @@ weapons:[
   
   
   {
-    name: Big-Boi
-    reload: 120
-    x: 0
-    y: -14
-    mirror: false
-    shootY: 7.5
-    recoil: 2
-    shake: 0.75
-    rotate: false
-    shootSound: railgun
-    rotateSpeed: 15
-    shootEffect: hitLancer
-    smokeEffect: none
-    shootCone: 90
-    bullet:{
+    name: Big-Laser-Boi
+    reload: 100
+    x: 19.25
+    y: -17.25
+    shootY: 7
+    recoil: 4
+    rotate: true
+    continuous: true
+    cooldownTime: 150
+    shootSound: beam
+    rotateSpeed: 7
+    shootCone: 180
+    bullet: {
       type: ContinuousLaserBulletType
-      absorbable: true
-      keepVelocity: true
-      length: 150
-      width: 3
-      damage: 15
+      lifetime: 70
+      damage: 1080
       hitColor: 8AA3F4
       colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
-      speed: 7
-      lifetime: 90
-      drag: 0.045
-      shake: 0
-      oscScl: 0.5
-      oscMag: 1
-      fadeTime: 30
-      makeFire: true
-      incendAmount: 1
-      incendChance: 0.01
-      tscales: [1, 0.75, 0.55, 0.4]
-      lenscales: [0.75, 0.85, 0.925, 1]
+      lightColor: 8AA3F4
+      length: 350
+      width: 9
+      shake: 0.25
     }
   }
 ]
