@@ -86,7 +86,6 @@ weapons:[
     rotate: true
     continuous: false
     cooldownTime: 150
-    shootSound: beam
     rotateSpeed: 7
     shootCone: 180
     bullet: {
@@ -97,7 +96,7 @@ weapons:[
       colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
       lightColor: 8AA3F4
       length: 350
-      width: 50
+      width: 87
       shake: 0.25
     }
   }
