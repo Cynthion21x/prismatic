@@ -36,9 +36,9 @@ weapons: [
   soundPitchMin: 1
   top: false
   mirror: false
-  shake: 18
+  shake: 16
   shootY: 5
-  reload: 0
+  reload: 50
   recoil: 0
   cooldownTime: 350
   shootStatusDuration: 12
