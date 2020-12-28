@@ -11,13 +11,13 @@ commandLimit: 12
 allowLegStep: true
 legCount: 4
 
-legExtension: 1
+legExtension: 5
 
 legSplashDamage: 150
 legSplashRange: 10
 mechStepParticles: true
 
-mineTier: 2
+mineTier: 5
 
 canDrown: false
 
@@ -90,7 +90,7 @@ weapons:[
     rotateSpeed: 7
     shootCone: 180
     bullet: {
-      type: ContinuousLaserBulletType
+      type: LaserBulletType
       lifetime: 70
       damage: 1080
       hitColor: 8AA3F4
