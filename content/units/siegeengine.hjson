@@ -79,8 +79,8 @@ weapons:[
   {
     name: Big-Laser-Boi
     reload: 100
-    x: 19.25
-    y: -17.25
+    x: 0
+    y: 0
     shootY: 7
     recoil: 4
     rotate: true
