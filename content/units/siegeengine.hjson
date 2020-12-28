@@ -1,5 +1,7 @@
 type: LegsUnit
 
+health: 12000
+
 flying: false
 targetAir: true
 targetGround: true
@@ -41,11 +43,11 @@ weapons: [
   firstShotDelay: 70
   bullet: {
     type: LaserBulletType
-    length: 170
+    length: 340
     damage: 1080
     width: 90
     lifetime: 25
-    lightningSpacing: 35
+    lightningSpacing: 60
     lightningLength: 5
     lightningDelay: 1.1
     lightningLengthRand: 15
