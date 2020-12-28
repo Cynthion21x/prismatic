@@ -1,4 +1,4 @@
-type: Unit
+type: LegUnit
 
 flying: false
 targetAir: true
@@ -82,22 +82,22 @@ weapons:[
     x: 0
     y: 0
     shootY: 7
-    recoil: 4
+    recoil: 10
     rotate: true
-    continuous: true
+    continuous: false
     cooldownTime: 150
     shootSound: beam
     rotateSpeed: 7
     shootCone: 180
     bullet: {
       type: LaserBulletType
-      lifetime: 70
+      lifetime: 20
       damage: 1080
       hitColor: 8AA3F4
       colors:[5757C155, 6974C4aa, 8AA3F4, ffffff]
       lightColor: 8AA3F4
       length: 350
-      width: 9
+      width: 50
       shake: 0.25
     }
   }
