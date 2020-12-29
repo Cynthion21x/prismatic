@@ -1,43 +1,26 @@
 type: legs
-
+name: Siege Engine
+description: Fires Massive Blasts Of Energy At Enemies
+drag: 0.1
+speed: 0.5
+hitSize: 48
+hovering: true
 health: 12000
-
-flying: false
-targetAir: true
-targetGround: true
-
-canBoost: false
-
-hitSize: 29.0
-armor: 9.0
-landShake: 2.5
-rotateSpeed: 1.5
-
+rotateSpeed: 2
 legCount: 4
-legBaseOffset: 11.0
-legMoveSpace: 3.0
-legTrns: 0.58
-legLengthScl: 1.3
+legMoveSpace: 1.4
 legPairOffset: 4
-
 legLength: 61
 legExtension: 10
+legBaseOffset: 8
+landShake: 2.1
+legSpeed: 0.22
+legLengthScl: 1.3
+armor: 14
 legSpeed: 0.19
-
-rippleScale: 6.0
-
-hovering: true
-
-visualElevation: 0.7
-
-allowLegStep: true
-
-legSplashDamage: 200
-legSplashRange: 60
-
-mechStepParticles: true
-
-canHeal: false
+rippleScale: 6
+legSplashDamage: 160
+legSplashRange: 10
 
 
 weapons: [
