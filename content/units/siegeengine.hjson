@@ -8,20 +8,20 @@ targetGround: true
 
 canBoost: false
 
-hitSize = 29.0
-armor = 9.0
-landShake = 1.5
-rotateSpeed = 1.5
+hitSize: 29.0
+armor: 9.0
+landShake: 1.5
+rotateSpeed: 1.5
 
-legCount = 4
-legLength = 14.0
-legBaseOffset = 11.0
-legMoveSpace = 1.5
-legTrns = 0.58
+legCount: 4
+legLength: 14.0
+legBaseOffset: 11.0
+legMoveSpace: 1.5
+legTrns: 0.58
 
-hovering = true
+hovering: true
 
-visualElevation = 0.2
+visualElevation: 0.2
 
 allowLegStep:true
 
