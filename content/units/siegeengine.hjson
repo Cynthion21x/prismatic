@@ -52,7 +52,7 @@ weapons: [
   top: false
   firstShotDelay: 123
   bullet: {
-    type: 
+    type: laserBulletType
     length: 340
     damage: 620
     width: 90
