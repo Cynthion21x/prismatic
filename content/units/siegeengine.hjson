@@ -10,21 +10,25 @@ canBoost: false
 
 commandLimit: 12
 
-allowLegStep: true
 legCount: 4
-
 legExtension: 20
-
 legSplashDamage: 150
 legSplashRange: 10
 mechStepShake: 20.0
 mechStepParticles: true
+legLength: 15.6
+
+visualElevation: 10.5
+
+legMoveSpace: 10
 
 mineTier: 5
 
 canDrown: false
 
 speed: 0.3
+
+hitSize: 25.7
 
 weapons: [
 {
