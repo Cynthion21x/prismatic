@@ -8,27 +8,25 @@ targetGround: true
 
 canBoost: false
 
-commandLimit: 12
+hitSize = 29.0
+armor = 9.0
+landShake = 1.5
+rotateSpeed = 1.5
 
-legCount: 4
-legExtension: 20
-legSplashDamage: 150
-legSplashRange: 10
-mechStepShake: 20.0
-mechStepParticles: true
-legLength: 15.6
-
-visualElevation: 100
-
-legMoveSpace: 10
+legCount = 4
+legLength = 14.0
+legBaseOffset = 11.0
+legMoveSpace = 1.5
+legTrns = 0.58
+hovering = true
+visualElevation = 0.2
+allowLegStep = true
 
 mineTier: 5
 
 canDrown: false
 
 speed: 0.3
-
-hitSize: 25.4
 
 weapons: [
 {
