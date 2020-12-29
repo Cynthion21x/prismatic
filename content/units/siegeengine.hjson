@@ -1,7 +1,5 @@
 type: LegsUnit
 
-localizedName: [purple]The Siege Engine
-
 health: 12000
 
 flying: false
