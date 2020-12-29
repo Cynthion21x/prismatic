@@ -1,8 +1,8 @@
 name: "prismatic"
-displayName: "[blue] Prismatic"
+displayName: "Prismatic"
 author: "ice100k, thecrisperson"
 description: "This mod adds a nice variety of weapons to the game as well as 2 fluids and 1 new resource!"
-version: "1.4.97 ALPHA"
+version: "1.5.118 ALPHA"
 minGameVersion: "121"
 dependencies: [ ]
 hidden: false
