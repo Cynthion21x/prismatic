@@ -10,7 +10,7 @@ canBoost: false
 
 commandLimit: 12
 
-legCount: 4
+legCount: 500
 legExtension: 20
 legSplashDamage: 150
 legSplashRange: 10
@@ -18,7 +18,7 @@ mechStepShake: 20.0
 mechStepParticles: true
 legLength: 15.6
 
-visualElevation: 10.5
+visualElevation: 100
 
 legMoveSpace: 10
 
