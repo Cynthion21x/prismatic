@@ -36,14 +36,14 @@ weapons: [
   soundPitchMin: 1
   top:false
   mirror: false
-  shake: 16
+  shake: 9
   shootY: 5
   reload: 50
-  recoil: 0
+  recoil: 5
   cooldownTime: 350
-  shootStatusDuration: 12
+  shootStatusDuration: 120
   shootStatus: unmoving
-  firstShotDelay: 90
+  firstShotDelay: 157
   bullet: {
     type: LaserBulletType
     length: 340
