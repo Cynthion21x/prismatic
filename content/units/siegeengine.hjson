@@ -22,8 +22,6 @@ hovering = true
 visualElevation = 0.2
 allowLegStep = true
 
-mineTier: 5
-
 canDrown: false
 
 speed: 0.3
