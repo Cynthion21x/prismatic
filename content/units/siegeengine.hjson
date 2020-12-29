@@ -23,7 +23,7 @@ hovering = true
 
 visualElevation = 0.2
 
-allowLegStep = true
+allowLegStep:true
 
 
 weapons: [
