@@ -1,6 +1,6 @@
 type: LegsUnit
 
-name: [purple]The Siege Engine
+localizedName: [purple]The Siege Engine
 
 health: 12000
 
