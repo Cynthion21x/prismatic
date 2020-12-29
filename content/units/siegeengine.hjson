@@ -43,18 +43,18 @@ weapons: [
   cooldownTime: 350
   shootStatusDuration: 120
   shootStatus: unmoving
-  firstShotDelay: 157
+  firstShotDelay: 123
   bullet: {
     type: LaserBulletType
     length: 340
-    damage: 504
+    damage: 620
     width: 90
     lifetime: 25
     lightningSpacing: 60
     lightningLength: 5
     lightningDelay: 1.1
     lightningLengthRand: 15
-    lightningDamage: 50
+    lightningDamage: 246
     lightningAngleRand: 40
     largeHit: true
     lightColor: ff99ff
