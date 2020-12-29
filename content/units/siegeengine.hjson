@@ -1,4 +1,4 @@
-type: LegsUnit
+type: legs
 
 health: 12000
 
@@ -14,11 +14,15 @@ landShake: 2.5
 rotateSpeed: 1.5
 
 legCount: 4
-legLength: 50.5
 legBaseOffset: 11.0
 legMoveSpace: 3.0
 legTrns: 0.58
-legExtention: -10.0
+legLengthScl: 1.3
+legPairOffset: 4
+
+legLength: 61
+legExtension: 10
+legSpeed: 0.19
 
 rippleScale: 6.0
 
