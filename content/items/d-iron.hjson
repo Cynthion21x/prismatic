@@ -3,4 +3,5 @@ description: D-energy compressed down into a solid, due to the energy being high
 color: c42b9e
 explosiveness: 1.3
 radioactivity: 1
+flammability: 0.4
 ItemType: material
