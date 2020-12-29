@@ -42,24 +42,23 @@ canHeal: false
 
 weapons: [
 {
-  name: chaoscannon
-  x: 0
-  y: 1
+  name: siegeengine
   shootSound: laserblast
   chargeSound: lasercharge
   soundPitchMin: 1
-  top:false
-  mirror: false
+  x: 0
+  y: 0
   shake: 9
   shootY: 5
   reload: 50
-  recoil: 5
   cooldownTime: 350
   shootStatusDuration: 120
   shootStatus: unmoving
+  mirrored: false
+  top: false
   firstShotDelay: 123
   bullet: {
-    type: LaserBulletType
+    type: laserBulletType
     length: 340
     damage: 620
     width: 90
