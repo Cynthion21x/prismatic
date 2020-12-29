@@ -10,7 +10,7 @@ canBoost: false
 
 commandLimit: 12
 
-legCount: 500
+legCount: 4
 legExtension: 20
 legSplashDamage: 150
 legSplashRange: 10
@@ -28,13 +28,13 @@ canDrown: false
 
 speed: 0.3
 
-hitSize: 25.7
+hitSize: 25.4
 
 weapons: [
 {
   name: chaoscannon
   x: 0
-  y: 0
+  y: 1
   shootSound: laserblast
   chargeSound: lasercharge
   soundPitchMin: 1
