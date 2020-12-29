@@ -3,14 +3,14 @@ name: Siege Engine
 description: Fires Massive Blasts Of Energy At Enemies
 drag: 0.1
 speed: 0.5
-hitSize: 48
+hitSize: 40
 hovering: true
 health: 12000
 rotateSpeed: 2
 legCount: 4
 legMoveSpace: 1.4
 legPairOffset: 4
-legLength: 6100000000
+legLength: 61
 legExtension: 10
 legBaseOffset: 8
 landShake: 2.1
