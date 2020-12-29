@@ -1,7 +1,7 @@
 const Siegeengine = extendContent(UnitType, "siegeengine", {});
 Siegeengine.constructor = () => extend(UnitEntity, {});
-Siegeengine.abilities.add(new UnitSpawnAbility(UnitTypes.crawler, 60 * 30, -17, -7.5));
-Siegeengine.abilities.add(new UnitSpawnAbility(UnitTypes.crawler, 60 * 30, 17, -7.5));
+Siegeengine.abilities.add(new UnitSpawnAbility(UnitTypes.crawler, 60 * 30, -18, -8.5));
+Siegeengine.abilities.add(new UnitSpawnAbility(UnitTypes.crawler, 60 * 30, 18, -8.5));
 Siegeengine.abilities.add(new StatusFieldAbility(StatusEffects.overclock, 60 * 9, 60 * 13, 120));
 Siegeengine.ammoType = AmmoTypes.power;
 

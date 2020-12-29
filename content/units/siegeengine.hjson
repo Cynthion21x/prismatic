@@ -10,20 +10,30 @@ canBoost: false
 
 hitSize: 29.0
 armor: 9.0
-landShake: 1.5
+landShake: 2.5
 rotateSpeed: 1.5
 
 legCount: 4
-legLength: 14.0
+legLength: 50.5
 legBaseOffset: 11.0
-legMoveSpace: 1.5
+legMoveSpace: 3.0
 legTrns: 0.58
+legExtention: -10.0
+
+rippleScale: 6.0
 
 hovering: true
 
-visualElevation: 0.2
+visualElevation: 0.7
 
 allowLegStep: true
+
+legSplashDamage: 200
+legSplashRange: 60
+
+mechStepParticles: true
+
+canHeal: false
 
 
 weapons: [
