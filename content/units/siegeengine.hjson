@@ -57,14 +57,14 @@ weapons: [
     lightningDamage: 50
     lightningAngleRand: 40
     largeHit: true
-    lightColor: ff0000
-    lightningColor: 000000
+    lightColor: ff99ff
+    lightningColor: 00ffff
     shootEffect: greenLaserCharge
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
     colors: [
-      f0e4a848, ff0000, ffffff
+      ff0066, ff00ff, ffffff
     ]
   }
 }]
