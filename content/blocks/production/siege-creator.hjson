@@ -10,7 +10,7 @@ consumes: {
 }
 plans: [
   {
-    unit: siegeengine
+    unit: siege
     time: 580
     requirements: [
       copper/1
