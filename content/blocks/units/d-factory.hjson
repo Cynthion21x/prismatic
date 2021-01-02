@@ -6,7 +6,7 @@ consumes: {
 }
 plans: [
   {
-    unit: aquila
+    unit: chaos
     requirements: [
       copper/500
       lead/600
