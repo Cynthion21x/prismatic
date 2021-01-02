@@ -1,0 +1,22 @@
+name: D-Factory
+type: UnitFactory
+size: 9
+consumes: {
+  power: 20
+}
+plans: [
+  {
+    unit: aquila
+    requirements: [
+      copper/500
+      lead/600
+      silicon/700
+      plastanium/600
+      surge-alloy/70
+      d-iron/900
+    ]
+    time: 550
+  }
+]
+category: units
+research: ground-factory
