@@ -3,17 +3,18 @@ type: UnitFactory
 size: 9
 consumes: {
   power: 20
+  d-wave/5
 }
 plans: [
   {
     unit: chaos
     requirements: [
-      copper/500
-      lead/600
+      phase-fabric/350
       silicon/700
-      plastanium/600
-      surge-alloy/70
+      plastanium/1200
+      surge-alloy/700
       d-iron/900
+      titanium/1500
     ]
     time: 550
   }
