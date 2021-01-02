@@ -1,6 +1,6 @@
 name: Vibro-Factory
 type: UnitFactory
-size: 9
+size: 3
 consumes: {
   liquid: {
 		liquid: d-wave
