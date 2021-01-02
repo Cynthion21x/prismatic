@@ -39,14 +39,14 @@ weapons: [
   shootY: 5
   reload: 50
   recoil: 5
-  cooldownTime: 350
+  cooldownTime: 500
   shootStatusDuration: 120
   shootStatus: unmoving
-  firstShotDelay: 123
+  firstShotDelay: 250
   bullet: {
     type: LaserBulletType
     length: 340
-    damage: 620
+    damage: 380
     width: 90
     lifetime: 25
     lightningSpacing: 60
