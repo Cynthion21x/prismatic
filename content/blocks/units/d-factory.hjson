@@ -10,7 +10,7 @@ plans: [
     unit: chaos
     requirements: [
       phase-fabric/350
-      silicon/700
+      silicon/1800
       plastanium/1200
       surge-alloy/700
       d-iron/900
@@ -19,5 +19,14 @@ plans: [
     time: 550
   }
 ]
+
+requirements: [
+      phase-fabric/350
+      silicon/900
+      plastanium/1200
+      surge-alloy/600
+      d-iron/600
+      titanium/1500
+    ]
 category: units
 research: ground-factory
