@@ -11,7 +11,7 @@ legCount: 4
 legMoveSpace: 1.4
 legPairOffset: 4
 legLength: 10
-legExtension: 5
+legExtension: 9
 legBaseOffset: 8
 landShake: 1.0
 legSpeed: 0.5
@@ -23,6 +23,7 @@ legSplashDamage: 160
 legSplashRange: 10
 visualElevation: 0.3
 
+research: corvus
 
 weapons: [
 {
