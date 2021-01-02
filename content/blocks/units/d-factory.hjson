@@ -2,8 +2,11 @@ name: D-Factory
 type: UnitFactory
 size: 9
 consumes: {
-  power: 20
-  d-wave/5
+  liquid: {
+		liquid: d-wave
+  		amount: 0.6
+	}
+   power: 20
 }
 plans: [
   {
