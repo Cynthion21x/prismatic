@@ -1,0 +1,30 @@
+name: Vibro-Factory
+type: UnitFactory
+size: 9
+consumes: {
+  liquid: {
+		liquid: d-wave
+  		amount: 0.4
+	}
+   power: 10
+}
+
+plans: [
+  {
+    unit: oscillation
+    requirements: [
+      d-iron/20
+      titanium/15
+      silicon/10
+    ]
+    time: 550
+  }
+]
+
+requirements: [
+      silicon/80
+      d-iron/120
+      copper/50
+    ]
+category: units
+research: ground-factory
