@@ -18,14 +18,14 @@ research: dagger
 
 weapons: [
     {
-        name: minilaser
+        name: impulselaser
         reload: 125
         x: 4
         y: 2
         top: true
         shots: 100
         spacing: 2
-        shootSound: cosmos
+        shootSound: beam
         bullet: {
             type: LaserBulletType
             continuous: true
@@ -39,7 +39,7 @@ weapons: [
             backColor: e60073
             status: sapped
             lifetime: 120
-            
+
         }
     }
 ]
