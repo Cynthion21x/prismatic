@@ -1,8 +1,8 @@
 name: "prismatic"
 displayName: "Prismatic"
 author: "ice100k, thecrisperson"
-description: "This mod adds a nice variety of weapons to the game as well as 2 fluids and 1 new resource!"
-version: "1.6.119 ALPHA"
+description: "In this mod you will find lots of chains of units and weapons like vibro weaponry and radio weaponry"
+version: "1.7.119"
 minGameVersion: "121"
 dependencies: [ ]
 hidden: false
