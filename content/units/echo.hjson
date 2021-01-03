@@ -32,8 +32,8 @@ weapons: [
             speed: 2.5
             width: 8
             height: 14
-            frontColor: bf92f9
-            backColor: 6d56bf
+            frontColor: ff1a8c
+            backColor: e60073
             status: sapped
             lifetime: 28
             sprite: bullet
