@@ -1,4 +1,5 @@
 type: UnitFactory
+name: Vibro-Factory
 
 health: 550
 size: 3
@@ -23,7 +24,7 @@ plans: [
         unit: reverberator
         requirements: [
             silicon/15
-            
+
         ]
         time: 550
     }
