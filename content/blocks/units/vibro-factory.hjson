@@ -2,7 +2,7 @@ type: UnitFactory
 
 health: 550
 size: 3
-itemCapacity: 100
+itemCapacity: 70
 
 requirements: [
     copper/50
