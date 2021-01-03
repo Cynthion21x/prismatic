@@ -14,7 +14,7 @@ canDrown: true
 
 commandLimit: 0
 
-research: dagger
+research: echo
 
 weapons: [
     {

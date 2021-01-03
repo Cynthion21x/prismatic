@@ -18,28 +18,29 @@ research: dagger
 
 weapons: [
     {
-        name: impulselaser
-        reload: 125
-        x: 4
-        y: 2
-        top: true
-        shots: 100
-        spacing: 2
-        shootSound: beam
-        bullet: {
-            type: LaserBulletType
-            continuous: true
-            damage: 12
-            status: sapped
-            pierce: true
-            speed: 0.0
-            width: 60
-            height: 14
-            frontColor: ff1a8c
-            backColor: e60073
-            status: sapped
-            lifetime: 120
-
-        }
+    name: ImpulseLaser
+    reload: 71
+    x: 2
+    y: 0
+    shootY: 7
+    recoil: 4
+    mirror: true
+    rotate: true
+    continuous: true
+    cooldownTime: 120
+    shootSound: beam
+    rotateSpeed: 5
+    shootCone: 180
+    bullet: {
+      type: ContinuousLaserBulletType
+      lifetime: 90
+      damage: 12
+      hitColor: 8AA3F4
+      colors:[ff33cc, ff66ff, ff99ff, ffffff]
+      lightColor: 8AA3F4
+      length: 90
+      width: 5
+      shake: 0.75
     }
+  }
 ]
