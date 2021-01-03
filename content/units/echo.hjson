@@ -5,7 +5,7 @@ type: mech
 flying: false
 
 canBoost: true
-boostMultiplier: 3.2
+boostMultiplier: 2.0
 
 speed: 0.5
 
