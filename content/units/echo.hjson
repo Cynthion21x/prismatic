@@ -5,7 +5,9 @@ type: mech
 flying: false
 
 canBoost: true
-boostMultiplier: 1.5
+boostMultiplier: 3.2
+
+speed: 0.5
 
 legCount: 2
 canDrown: true
@@ -21,6 +23,7 @@ weapons: [
         top: true
         shots: 100
         spacing: 2
+        shootSound: cosmos
         bullet: {
             type: BasicBulletType
             damage: 1
