@@ -23,7 +23,7 @@ plans: [
         unit: reverberator
         requirements: [
             silicon/15
-           
+            
         ]
         time: 550
     }
