@@ -19,6 +19,14 @@ plans: [
         ]
         time: 550
     }
+    {
+        unit: reverberator
+        requirements: [
+            silicon/15
+           
+        ]
+        time: 550
+    }
 ]
 category: units
 
