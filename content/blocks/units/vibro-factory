@@ -1,35 +1,30 @@
-name: Vibro-Factory
 type: UnitFactory
+
+health: 550
 size: 3
-consumes: {
-  liquid: {
-		liquid: d-wave
-  		amount: 0.8
-	}
-   power: 20
-}
-plans: [
-  {
-    unit: chaos
-    requirements: [
-      phase-fabric/350
-      silicon/1800
-      plastanium/1200
-      surge-alloy/700
-      d-iron/900
-      titanium/1500
-    ]
-    time: 1550
-  }
-]
+itemCapacity: 100
 
 requirements: [
-      phase-fabric/350
-      silicon/900
-      plastanium/1200
-      surge-alloy/600
-      d-iron/600
-      titanium/1500
-    ]
+    copper/50
+    d-iron/20
+    silicon/80
+]
+
+plans: [
+    {
+        unit: echo
+        requirements: [
+            silicon/15
+            lead/20
+            d-iron/5
+        ]
+        time: 550
+    }
+]
 category: units
-research: ground-factory
+
+consumes: {
+    power: 1.5
+}
+
+research: command-center
