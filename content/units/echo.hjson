@@ -23,15 +23,14 @@ weapons: [
         spacing: 2
         bullet: {
             type: BasicBulletType
-            damage: 9
+            damage: 1
             speed: 2.5
             width: 8
             height: 14
             frontColor: bf92f9
             backColor: 6d56bf
             status: sapped
-            inaccuracy: 5
-            lifetime: 40
+            lifetime: 28
             sprite: bullet
         }
     }
