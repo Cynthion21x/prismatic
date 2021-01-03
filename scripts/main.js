@@ -6,5 +6,6 @@ require("blocks/production/d-filter");
 
 //units
 require("units/siege");
+require("blocks/units/addUnits");
 
 print("Load Complete!");

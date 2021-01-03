@@ -1,0 +1,2 @@
+var upgrade = new Seq([Vars.content.getByName(ContentType.unit, "echo"), Vars.content.getByName(ContentType.unit, "reverberator")]);
+Blocks.additiveReconstructor.upgrades.add(upgrade.toArray(UnitType));
