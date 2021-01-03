@@ -18,7 +18,7 @@ research: dagger
 
 weapons: [
     {
-    name: ImpulseLaser
+    name: impulselaser
     reload: 71
     x: 2
     y: 0
