@@ -27,6 +27,8 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 1
+            status: sapped
+            pierce: true
             speed: 2.5
             width: 8
             height: 14
