@@ -20,7 +20,7 @@ weapons: [
     {
     name: impulselaser
     reload: 71
-    x: 2
+    x: 4
     y: 0
     shootY: 7
     recoil: 4
