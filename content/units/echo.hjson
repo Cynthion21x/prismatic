@@ -18,7 +18,7 @@ weapons: [
         reload: 15
         x: 4
         y: 2
-        top: false
+        top: true
         shots: 100
         spacing: 2
         bullet: {
