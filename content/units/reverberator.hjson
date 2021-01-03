@@ -12,7 +12,7 @@ speed: 0.5
 legCount: 2
 canDrown: true
 health: 320
-commandLimit: 0
+commandLimit: 4
 
 research: dagger
 
@@ -23,9 +23,9 @@ weapons: [
     x: 4
     y: 0
     shootY: 7
-    recoil: 4
+    recoil: 2
     mirror: true
-    rotate: true
+    rotate: false
     continuous: true
     cooldownTime: 120
     shootSound: beam
@@ -39,7 +39,7 @@ weapons: [
       colors:[ff33cc, ff66ff, ff99ff, ffffff]
       lightColor: 8AA3F4
       length: 90
-      width: 5
+      width: 2.5
       shake: 0.75
     }
   }
