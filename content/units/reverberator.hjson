@@ -41,6 +41,8 @@ weapons: [
       length: 90
       width: 2.5
       shake: 0.75
+      shootEffect: lancerLaserCharge
+      status: sapped
     }
   }
 ]
