@@ -22,8 +22,7 @@ weapons: [
         reload: 15
         x: 4
         y: 2
-        top: true
-        shots: 100
+        shots: 50
         spacing: 2
         shootSound: cosmos
         bullet: {
