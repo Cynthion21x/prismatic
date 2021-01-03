@@ -1,0 +1,45 @@
+name: Reverberator
+description: Fires a small continuous laser at enemies
+type: mech
+
+flying: false
+
+canBoost: true
+boostMultiplier: 2.0
+
+speed: 0.5
+
+legCount: 2
+canDrown: true
+
+commandLimit: 0
+
+research: dagger
+
+weapons: [
+    {
+        name: minilaser
+        reload: 125
+        x: 4
+        y: 2
+        top: true
+        shots: 100
+        spacing: 2
+        shootSound: cosmos
+        bullet: {
+            type: LaserBulletType
+            continuous: true
+            damage: 12
+            status: sapped
+            pierce: true
+            speed: 0.0
+            width: 60
+            height: 14
+            frontColor: ff1a8c
+            backColor: e60073
+            status: sapped
+            lifetime: 120
+            
+        }
+    }
+]
