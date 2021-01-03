@@ -4,27 +4,32 @@ size: 3
 consumes: {
   liquid: {
 		liquid: d-wave
-  		amount: 0.4
+  		amount: 0.8
 	}
-   power: 10
+   power: 20
 }
-
 plans: [
   {
-    unit: echo
+    unit: chaos
     requirements: [
-      d-iron/20
-      titanium/15
-      silicon/10
+      phase-fabric/350
+      silicon/1800
+      plastanium/1200
+      surge-alloy/700
+      d-iron/900
+      titanium/1500
     ]
-    time: 550
+    time: 1550
   }
 ]
 
 requirements: [
-      silicon/80
-      d-iron/120
-      copper/50
+      phase-fabric/350
+      silicon/900
+      plastanium/1200
+      surge-alloy/600
+      d-iron/600
+      titanium/1500
     ]
 category: units
 research: ground-factory
