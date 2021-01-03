@@ -12,6 +12,8 @@ speed: 0.5
 legCount: 2
 canDrown: true
 
+commandLimit: 0
+
 research: dagger
 
 weapons: [
