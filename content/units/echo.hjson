@@ -1,29 +1,48 @@
+name: Echo
+description: Fires tiny shockwaves at enemies
 type: mech
-speed: 0.45
-health: 300
-armor: 1
+
+flying: false
+
+canBoost: true
+boostMultiplier: 1.5
+
+legCount: 2
+canDrown: true
+
+research: dagger
+
 weapons: [
-    {
-        name: gun
-        reload: 15
-        x: 4
-        y: 2
-        top: false
-        shots: 2
-        spacing: 2
-        ejectEffect: casing1
-        bullet: {
-            type: BasicBulletType
-            damage: 9
-            speed: 2.5
-            width: 8
-            height: 14
-            frontColor: bf92f9
-            backColor: 6d56bf
-            status: sapped
-            inaccuracy: 5
-            lifetime: 40
-            sprite: bullet
-        }
-    }
-]
+{
+  name: mini-vibro
+  shots : 150
+  spread : 0.8
+  x: 2
+  y: 1
+  shootSound: cosmos
+  mirror: true
+  shake: 2
+  shootY: 5
+  reload: 50
+  recoil: 5
+  bullet: {
+    type: LiquidBulletType
+    drag: 0.03
+    speed: 15
+    knockback: 0
+    ammoMultiplier: 0.4
+    damage: 1.5
+    pierce: true
+
+    liquid: d-wave
+
+    status: {
+                 name: Crippled
+                 speedMultiplier: 0.8
+                 armorMultiplier: 0.5
+                 damage: 1.5
+                 effect: overdriven
+                 color: ff33cc
+               }
+      }
+}]

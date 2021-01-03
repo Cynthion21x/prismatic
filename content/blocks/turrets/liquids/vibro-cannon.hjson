@@ -30,6 +30,7 @@ ammoTypes: {
       damage: 0.0
       ammoMultiplier: 1
       liquid: "water"
+      status: wet
     }
 
     d-wave: {
@@ -40,8 +41,8 @@ ammoTypes: {
       ammoMultiplier: 0.4
       damage: 1.5
       pierce: true
-      liquid: "d-wave" 
-    
+      liquid: "d-wave"
+
       status: {
                    name: Crippled
                    speedMultiplier: 0.8
@@ -51,7 +52,7 @@ ammoTypes: {
                    color: ff33cc
                  }
     }
-    
+
     slag: {
       type: LiquidBulletType
       drag: 0.03
@@ -61,11 +62,8 @@ ammoTypes: {
       ammoMultiplier: 0.6
       pierce: true
       liquid: "slag"
-      
-       status: {
-                   name: Melting
-                   damage: 2
-                 }
+
+       status: melting
     }
     cryofluid: {
       type: LiquidBulletType
@@ -75,21 +73,17 @@ ammoTypes: {
       ammoMultiplier: 0.4
       damage: 0.5
       pierce: true
-      liquid: "cryofluid" 
-    
-      status: {
-                   name: Frozen
-                   speedMultiplier: 0.5
-                   color: ff33cc
-                 }
+      liquid: "cryofluid"
+
+      status: freezing
     }
-    
-  
+
+
 }
 
-    
- 
-    
+
+
+
 requirements: [
   lead/150
   titanium/80

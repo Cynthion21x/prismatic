@@ -15,8 +15,7 @@ plans: [
         unit: echo
         requirements: [
             silicon/15
-            lead/20
-            d-iron/5
+            d-iron/20
         ]
         time: 550
     }
