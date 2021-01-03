@@ -18,15 +18,7 @@ plans: [
             silicon/15
             d-iron/20
         ]
-        time: 550
-    }
-    {
-        unit: reverberator
-        requirements: [
-            silicon/15
-
-        ]
-        time: 550
+        time: 1550
     }
 ]
 category: units
