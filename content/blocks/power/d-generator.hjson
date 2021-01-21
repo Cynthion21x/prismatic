@@ -12,6 +12,9 @@ coolColor: ffffff00
 hotColor: ff9575a3
 itemDuration: 260
 
+explosionRadius: 40
+explosionDamage: 2000
+
 consumes: {
 
 items: {

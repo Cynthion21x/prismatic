@@ -27,20 +27,20 @@ weapons: [
     mirror: true
     rotate: false
     continuous: true
-    cooldownTime: 120
+    cooldownTime: 160
     shootSound: beam
     rotateSpeed: 5
     shootCone: 180
     bullet: {
       type: ContinuousLaserBulletType
       lifetime: 90
-      damage: 12
+      damage: 5
       hitColor: 8AA3F4
       colors:[ff33cc, ff66ff, ff99ff, ffffff]
       lightColor: 8AA3F4
-      length: 90
-      width: 2.5
-      shake: 0.75
+      length: 23
+      width: 1.3
+      shake: 0.23
       shootEffect: lancerLaserShoot
       status: sapped
     }

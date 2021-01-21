@@ -1,0 +1,27 @@
+name: D-Additive Reconstructor
+type: Reconstructor
+size: 3
+consumes: {
+  power: 3.2
+  items: {
+    items: [
+    silicon/35
+    d-iron/20
+    ]
+  }
+}
+constructTime: 900
+
+requirements: [
+    copper/50
+    d-iron/20
+    silicon/80
+]
+
+upgrades: [
+  [
+    echo, reverberator
+  ]
+]
+category: units
+research: additive-reconstructor
