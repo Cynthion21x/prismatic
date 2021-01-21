@@ -47,7 +47,7 @@ ammoTypes: {
                    name: Crippled
                    speedMultiplier: 0.8
                    armorMultiplier: 0.5
-                   damage: 1.5
+                   damage: 5
                    effect: overdriven
                    color: ff33cc
                  }
