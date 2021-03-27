@@ -1,0 +1,29 @@
+name: D-Additive Reconstructor
+type: Reconstructor
+size: 5
+consumes: {
+  power: 3.2
+  items: {
+    items: [
+    silicon/130
+    d-iron/80
+    titanium/160
+    ]
+  }
+}
+constructTime: 1000
+
+requirements: [
+    d-iron/250
+    titanium/350
+    silicon/450
+    thorium/650
+]
+
+upgrades: [
+  [
+    reverberator, sonority
+  ]
+]
+category: units
+research: multiplicative-reconstructor

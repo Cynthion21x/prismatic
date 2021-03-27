@@ -1,0 +1,43 @@
+name: Sonority
+description: Fires a close range shockwave at enemies whilst moving at high speed.
+type: mech
+
+flying: false
+
+canBoost: true
+boostMultiplier: 2.0
+
+speed: 2
+
+legCount: 2
+canDrown: true
+health: 300
+commandLimit: 2
+
+research: dagger
+
+weapons: [
+    {
+        name: impulse
+        reload: 15
+        x: 0
+        y: 0
+        shots: 10
+        spacing: 2
+        shootSound: cosmos
+        bullet: {
+            type: BasicBulletType
+            damage: 3
+            status: sapped
+            pierce: true
+            speed: 2.5
+            width: 8
+            height: 14
+            frontColor: ff1a8c
+            backColor: e60073
+            status: sapped
+            lifetime: 7
+            sprite: bullet
+        }
+    }
+]
