@@ -1,5 +1,3 @@
-[![Discord](https://img.shields.io/discord/793218651145633803.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord)](https://discord.gg/aQWAcdS2zP)
-
 # Prismatic
 A Mindustry Mod
 
