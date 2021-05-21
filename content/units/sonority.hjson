@@ -27,7 +27,7 @@ weapons: [
         shootSound: cosmos
         bullet: {
             type: BasicBulletType
-            damage: 3
+            damage: 30
             status: sapped
             pierce: true
             speed: 2.5
