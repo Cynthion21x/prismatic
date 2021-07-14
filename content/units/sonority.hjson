@@ -22,12 +22,12 @@ weapons: [
         reload: 15
         x: 0
         y: 0
-        shots: 10
-        spacing: 2
+        shots: 360
+        spacing: 1
         shootSound: cosmos
         bullet: {
             type: BasicBulletType
-            damage: 30
+            damage: 70
             status: sapped
             pierce: true
             speed: 2.5
