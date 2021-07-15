@@ -11,7 +11,7 @@ speed: 2
 
 legCount: 2
 canDrown: true
-health: 300
+health: 75
 commandLimit: 2
 
 research: dagger
@@ -27,7 +27,7 @@ weapons: [
         shootSound: cosmos
         bullet: {
             type: BasicBulletType
-            damage: 70
+            damage: 60
             status: sapped
             pierce: true
             speed: 2.5

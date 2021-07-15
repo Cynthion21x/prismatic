@@ -2,7 +2,7 @@ name: "prismatic"
 displayName: "Prismatic"
 author: "ice100k, thecrisperson"
 description: "In this mod you will find lots of chains of units and weapons like vibro weaponry"
-version: "1.8.122"
+version: "1.8.123"
 minGameVersion: "121"
 dependencies: [ ]
 hidden: false
