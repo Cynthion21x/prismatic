@@ -6,3 +6,5 @@ transitionDamage: 10
 damage: 5
 
 speedMultiplier: 0.5
+buildSpeedMultiplier: 0.5
+healthMultiplier: 0.8
