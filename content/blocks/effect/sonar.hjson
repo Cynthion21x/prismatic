@@ -1,5 +1,6 @@
 name: "radar booster"
 size: 2
+health: 220
 
 category: "effect"
 
