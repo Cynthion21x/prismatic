@@ -1,0 +1,12 @@
+name: "radar booster"
+size: 2
+
+category: "effect"
+
+requirements: [
+    lead/200
+    titanium/150
+    silicon/130
+    plastanium/80
+    d-iron/120
+]
