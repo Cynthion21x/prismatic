@@ -1,0 +1,8 @@
+name: Crippled
+description: You are crumbling under immense pressure
+
+transitionDamage: 10
+
+damage: 5
+
+speedMultiplier: 0.5

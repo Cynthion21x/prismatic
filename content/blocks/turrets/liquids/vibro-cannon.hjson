@@ -43,14 +43,7 @@ ammoTypes: {
       pierce: true
       liquid: "d-wave"
 
-      status: {
-                   name: Crippled
-                   speedMultiplier: 0.5
-                   armorMultiplier: 0.5
-                   damage: 7
-                   effect: overdriven
-                   color: ff33cc
-                 }
+      status: crippled
     }
 
     slag: {
