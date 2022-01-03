@@ -5,7 +5,7 @@ insulated: true
 flashHit: true
 hasShadow: false
 
-lightningChance: 100
+lightningChance: 25
 lightningDamage: 15
 lightningLength: 9.8
 
