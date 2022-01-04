@@ -1,7 +1,7 @@
 name: "prismatic"
-displayName: "Prismatic"
-author: "ice100k, thecrisperson"
-description: "[#ea0075]Prismatic[] introduces lots of new technolicy capable of bending the very fabrics of reality.. \n \n - Made in Hjson"
+displayName: "[magenta]Prismatic"
+author: "[blue]ice100k, [orange]thecrisperson"
+description: "[magenta]Prismatic[] introduces lots of new technology capable of bending the very fabrics of reality.."
 version: "1.10.124"
 minGameVersion: "135"
 dependencies: [ ]
