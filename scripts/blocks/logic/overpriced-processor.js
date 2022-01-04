@@ -16,5 +16,5 @@ try{
     });
   }
 } catch(e) {
-  Log.warn("Please install [#00aaff]DeltaNedas/rtfm[] to view OP Walls's manual pages.");
+  Log.warn("Interesting");
 }
