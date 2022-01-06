@@ -1,6 +1,6 @@
 type: SolidPump
 
-size: 2
+size: 3
 health: 150
 craftTime: 3
 
@@ -14,8 +14,8 @@ solid: true
 liquidCapacity: 20.0
 
 consumes: {
-		
-	
+
+
   power: 1.2
 }
 
