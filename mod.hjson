@@ -2,7 +2,7 @@ name: "prismatic"
 displayName: "Prismatic"
 author: "ice100k, thecrisperson"
 description: "Prismatic[] introduces lots of new technology capable of bending the very fabrics of reality.."
-version: "1.10.124"
+version: "1.10.125"
 minGameVersion: "135"
 dependencies: [ ]
 hidden: false
